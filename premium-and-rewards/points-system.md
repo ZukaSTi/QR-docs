@@ -84,10 +84,13 @@ Global user ranking by total points. Compete with others and climb the ranks!
 ## FAQ
 
 **What are points for?**
+
 Points determine your league and leaderboard position. Future — additional utility and conversion.
 
 **What does a high league give?**
+
 Bonus to point earnings (up to +14% for Legend) and community status.
 
 **Can I lose points?**
+
 No. Points only accumulate, they are never deducted.

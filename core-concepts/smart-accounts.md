@@ -80,9 +80,9 @@ Before sending transactions via SA, you need to **activate** it on each network 
 | Polygon | Sponsored | ~$0.01 (free for you) |
 | Arbitrum | Sponsored | ~$0.03 (free for you) |
 | BNB Chain | Sponsored | ~$0.05 (free for you) |
-| Ethereum | Self-pay | ~$3.00 (you pay) |
+| Ethereum | Sponsored (temporary) | ~$3.00 (free until March 2026) |
 
-> On L2 networks, activation costs pennies and QR Wallet covers it. On Ethereum, it's expensive due to high gas, so the user pays.
+> On L2 networks, activation costs pennies and QR Wallet covers it. On Ethereum, activation is temporarily sponsored until March 2026 as part of an early adopter promotion.
 
 ### Auto-Activation
 
@@ -124,10 +124,13 @@ Deep dive: [ERC-4337 Deep Dive](../under-the-hood/erc-4337.md)
 ## FAQ
 
 **Do I need to activate SA on every network?**
+
 Only on those where you want to send transactions. You can receive funds without activation.
 
 **Can I lose funds if SA isn't activated?**
+
 No. Funds on the SA address are safe — activation is only needed for outgoing transactions.
 
 **If SA is already activated, do I need to do anything again?**
+
 No. Activation is a one-time action. Once deployed — it works forever.

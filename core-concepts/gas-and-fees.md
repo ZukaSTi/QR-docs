@@ -89,17 +89,20 @@ Users can always switch modes manually in the send interface.
 | Tron | ~$1–3 (energy) |
 | Ethereum | $1–10+ |
 
-> On L2 networks, gas costs fractions of a cent — even in self-pay mode it's practically free. On Ethereum — significantly more expensive.
+> On L2 networks, gas costs fractions of a cent — even in self-pay mode it's practically free. On Ethereum — significantly more expensive, but **temporarily sponsored until March 2026**.
 
 ---
 
 ## FAQ
 
 **Can I always use free TX?**
+
 Yes, if your Premium tier provides sufficient daily limit. On Lifetime — up to 10 free TX per day (+ NFT bonuses).
 
 **Why does gasless take USDC and not any token?**
+
 Paymaster only accepts stablecoins (USDC, USDT) as payment — they have a stable exchange rate, which simplifies fee calculation.
 
 **Does gas on Tron work differently?**
+
 Yes. Tron uses an "energy" and "bandwidth" system instead of classic gas. USDT transfers on Tron require energy, which can be obtained by staking TRX.

@@ -92,10 +92,13 @@ Thanks to Smart Account and CREATE2, your address is **identical** across all 10
 ## FAQ
 
 **Do I need to switch networks manually?**
+
 For viewing balance — no, everything is visible at once. For sending — you choose the network when creating a transaction.
 
 **Can I receive tokens on a network where SA isn't activated?**
+
 Yes. Funds will arrive at your address. SA activates automatically upon receiving ≥ $5.
 
 **Which tokens are supported?**
+
 All standard ERC-20 tokens on EVM networks, SPL tokens on Solana, TRC-20 on Tron. You can also add custom tokens by contract address.

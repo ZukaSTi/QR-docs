@@ -86,10 +86,13 @@ More: [Points System](../premium-and-rewards/points-system.md)
 ## FAQ
 
 **Can I lose funds?**
+
 Smart contract risk exists theoretically, but we only use audited protocols (AAVE, Compound, Lido). Risk level is displayed for each pool.
 
 **When do I earn?**
+
 Earnings accrue continuously in real time. You see balance growth right in the app.
 
 **Can I withdraw anytime?**
+
 Depends on the protocol. Most pools support instant withdrawal. Lido (stETH) may require waiting or exchanging on a DEX.

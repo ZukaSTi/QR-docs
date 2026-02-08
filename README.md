@@ -29,12 +29,14 @@ Points system, quests, leagues, referral program — turning routine crypto oper
 
 ## Who Is This For?
 
-| Audience | What to Read |
-|----------|-------------|
-| **Team** | Everything — features to architecture |
-| **COO / Management** | Core Concepts, Features, Premium & Rewards |
-| **Partners** | Core Concepts, For Partners, Public API |
-| **Moderators** | Features, Premium & Rewards, FAQ sections |
+| You are... | Start here |
+|------------|-----------|
+| **New to crypto** | [Core Concepts](core-concepts/smart-accounts.md) — understand how wallets, gas, and networks work |
+| **Active trader** | [Swap & Bridge](features/swap-and-bridge.md), [Perpetual Trading](features/perpetual-trading.md), [Staking](features/staking.md) |
+| **Expat or remote worker** | [Send & Receive](features/send-and-receive.md), [QR Payments](features/qr-payments.md), [Multi-Chain](core-concepts/multi-chain.md) |
+| **Business or merchant** | [QR Payments](features/qr-payments.md), [For Partners](for-partners/integration-overview.md) |
+| **Developer** | [Architecture](under-the-hood/architecture.md), [ERC-4337 Deep Dive](under-the-hood/erc-4337.md) |
+| **DeFi enthusiast** | [Staking](features/staking.md), [Borrowing](features/borrowing.md), [DApp Browser](features/dapp-browser.md) |
 
 ---
 
@@ -62,7 +64,7 @@ Go to [Features](features/wallet-and-balances.md) — detailed description of ev
 
 **Want to integrate?**
 
-Check [For Partners](for-partners/integration-overview.md) and [Public API](public-api/overview.md).
+Check [For Partners](for-partners/integration-overview.md) — integration options and partnership.
 
 </td>
 <td>
@@ -91,6 +93,10 @@ Security       Biometric + Secure Enclave
 
 ## Links
 
-- **Website:** [qr.xyz](https://qr.xyz)
-- **X (Twitter):** [@QRWallet](https://x.com/QRWallet)
-- **Telegram:** [Community](https://t.me/QRWallet)
+- **Website:** [qr.xyz](https://qr.xyz/)
+- **X (Twitter):** [@QRwallet_X](https://x.com/QRwallet_X)
+- **Telegram:** [Community](https://t.me/QRwallet_X)
+- **Discord:** [Join](https://discord.gg/4rTu8Bmjnz)
+- **Instagram:** [@qrwallet_x](https://www.instagram.com/qrwallet_x)
+- **YouTube:** [@qrwallet_x](https://youtube.com/@qrwallet_x)
+- **Linktree:** [All links](https://linktr.ee/qrwallet_x)

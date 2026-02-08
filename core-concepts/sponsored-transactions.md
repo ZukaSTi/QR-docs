@@ -123,9 +123,9 @@ In addition to daily limits, you may have **static sponsored TX** — they **don
 | HyperEVM | ✅ | ~$0.02 |
 | Monad | ✅ | ~$0.02 |
 | Plasma | ✅ | ~$0.02 |
-| Ethereum | ❌ | — |
+| Ethereum | ✅ (temporary) | ~$3–10 |
 
-> **Why not Ethereum?** Gas on Ethereum is 100–300× more expensive than on L2s. Sponsoring Ethereum transactions would be economically unfeasible.
+> **Ethereum:** Sponsored transactions on Ethereum are available **temporarily until March 2026** as part of an early adopter promotion. After that, Ethereum will switch to self-pay/gasless mode due to high gas costs.
 
 ---
 
@@ -142,10 +142,13 @@ You're **not locked out**. Three options:
 ## FAQ
 
 **Do failed transactions count?**
+
 No. If a transaction fails, the sponsored TX is not consumed.
 
 **Can I check my remaining balance?**
+
 Yes — the Premium card in the app shows usage: `3/5 TX`.
 
 **Does it work on Solana?**
+
 Yes, Solana uses a separate fee sponsorship mechanism.

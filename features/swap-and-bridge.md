@@ -83,10 +83,13 @@ For cross-chain swaps, minimum amount is **$0.10**, as bridge fees can consume v
 ## FAQ
 
 **What if the rate changes during the transaction?**
+
 Slippage protection — if price moves more than the allowed %, the transaction is rejected and you don't lose funds.
 
 **Can I swap ETH for SOL?**
+
 Yes. Cross-chain swap via Rango enables exchange between any supported networks.
 
 **How long does a bridge take?**
+
 Depends on the route — from 30 seconds (L2 → L2) to 15 minutes (Ethereum → L2).

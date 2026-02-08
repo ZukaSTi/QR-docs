@@ -34,9 +34,9 @@ Fast and cheap L2 by Coinbase. One of the most popular for DeFi and everyday ope
 | **Type** | L1 (mainnet) |
 | **Gas** | $1–10+ |
 | **Explorer** | [etherscan.io](https://etherscan.io) |
-| **Sponsored TX** | ❌ |
+| **Sponsored TX** | ✅ (temporary, until March 2026) |
 
-The original blockchain. Most secure and decentralized, but expensive. Sponsored TX disabled due to high gas.
+The original blockchain. Most secure and decentralized. Sponsored TX available temporarily until March 2026 as an early adopter promotion.
 
 ### Arbitrum
 | | |
@@ -141,7 +141,7 @@ Next-gen high-performance EVM blockchain with parallel transaction execution.
 | Network | Gas | Sponsored | SA Activation | Speed |
 |---------|:---:|:---------:|:-------------:|:-----:|
 | Base | ~$0.01 | ✅ | ✅ ~$0.02 | 2s |
-| Ethereum | $1–10 | ❌ | ❌ ~$3.00 | 15s |
+| Ethereum | $1–10 | ✅* | ✅* ~$3.00 | 15s |
 | Arbitrum | ~$0.02 | ✅ | ✅ ~$0.03 | 2s |
 | Polygon | < $0.01 | ✅ | ✅ ~$0.01 | 3s |
 | Optimism | ~$0.01 | ✅ | ✅ ~$0.02 | 2s |

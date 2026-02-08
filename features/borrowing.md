@@ -86,10 +86,13 @@ After opening a loan you can:
 ## FAQ
 
 **What is liquidation?**
+
 If collateral price drops significantly and Health Factor falls below 1, the protocol automatically sells part of your collateral to cover the debt. This protects lenders.
 
 **What's the max LTV?**
+
 Depends on the token. ETH is usually 80%, stablecoins up to 85%. We recommend not exceeding 60–70% for safety.
 
 **How much does borrowing cost?**
+
 Borrow APY is a variable rate, usually 2–8% annually for stablecoins. Depends on market demand.

@@ -37,10 +37,13 @@ All QR Wallet networks — cryptocurrency is sent directly to your address on th
 ## FAQ
 
 **Is verification required?**
+
 Yes, Transak requires KYC (Know Your Customer). First purchase may require document verification. Subsequent ones are faster.
 
 **What's the fee?**
+
 Transak fee is usually 1–3% of the amount — depends on payment method and region.
 
 **How long does it take?**
+
 Card / Apple Pay — usually 1–5 minutes. Bank transfer — up to several hours.

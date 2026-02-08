@@ -83,10 +83,13 @@ On **Year** and **Lifetime** tiers, some points are credited **automatically** e
 ## FAQ
 
 **Can I extend Premium?**
+
 Yes. You can buy a new period before the current one expires — time stacks.
 
 **What happens when Premium expires?**
+
 You return to the Free tier. Activated SAs remain active — that's a one-time action.
 
 **Can I buy Premium with fiat?**
+
 Crypto only for now. Fiat payment is planned.

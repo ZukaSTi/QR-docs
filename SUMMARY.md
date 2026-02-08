@@ -48,12 +48,6 @@
 * [Architecture](under-the-hood/architecture.md)
 * [ERC-4337 Deep Dive](under-the-hood/erc-4337.md)
 
-## Public API
-
-* [API Overview](public-api/overview.md)
-* [QR Payments API](public-api/qr-payments-api.md)
-* [Webhooks](public-api/webhooks.md)
-
 ## For Partners
 
 * [Integration Overview](for-partners/integration-overview.md)

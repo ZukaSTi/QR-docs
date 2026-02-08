@@ -76,10 +76,13 @@ You can import an existing wallet:
 ## FAQ
 
 **Can QR Wallet see my private key?**
+
 No. The key is stored in the device's Secure Storage and never leaves it.
 
 **What if I lose my phone?**
+
 Restore the wallet on a new device using your seed phrase. All funds intact.
 
 **What if QR Wallet shuts down?**
+
 Your funds are on the blockchain. Use your seed phrase in any other EVM wallet (MetaMask, Rainbow, etc.) to access your EOA.

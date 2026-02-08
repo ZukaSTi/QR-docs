@@ -59,7 +59,9 @@ In QR Wallet, biometrics is requested **before** transaction preparation, not af
 ## FAQ
 
 **What if biometrics doesn't work?**
+
 On devices without biometrics, the device PIN is used as fallback.
 
 **Are my biometric data stored?**
+
 No. QR Wallet does not store biometric data. Authentication is handled by the OS (iOS/Android) through a secure hardware module.

@@ -46,5 +46,6 @@ In Discovery → **Partner Request** — built-in application form.
 ## Contact
 
 - **Email:** partners@qr.xyz
-- **Telegram:** Reach out via our [community](https://t.me/QRWallet)
-- **X (Twitter):** [@QRWallet](https://x.com/QRWallet)
+- **Telegram:** [Community](https://t.me/QRwallet_X)
+- **X (Twitter):** [@QRwallet_X](https://x.com/QRwallet_X)
+- **Discord:** [Join](https://discord.gg/4rTu8Bmjnz)

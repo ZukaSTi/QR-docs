@@ -93,10 +93,13 @@ Besides cashback, inviting friends earns **points**:
 ## FAQ
 
 **When is cashback credited?**
+
 Cashback is credited after the referral completes a fee-generating operation (swap, bridge).
 
 **Is there a referral limit?**
+
 No. Invite as many as you want.
 
 **Can I see who referred me?**
+
 Yes, referrer information is displayed in the referral section.

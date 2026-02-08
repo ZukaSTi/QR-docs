@@ -24,7 +24,7 @@ One-time quests for social activity:
 
 | Quest | Description | Points |
 |-------|------------|:------:|
-| Follow on X | Follow @QRWallet on X | 200 |
+| Follow on X | Follow @QRwallet_X on X | 200 |
 | Join Telegram | Join the Telegram community | 200 |
 | Share on Social | Share your referral link | 150 |
 | Invite Friend | Get a friend to sign up | 500 |
