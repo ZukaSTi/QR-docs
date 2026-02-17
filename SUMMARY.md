@@ -10,6 +10,8 @@
 * [Sponsored Transactions](core-concepts/sponsored-transactions.md)
 * [Multi-Chain](core-concepts/multi-chain.md)
 * [Gas & Fees](core-concepts/gas-and-fees.md)
+* [$SMRTS Token](core-concepts/smrt-token.md)
+* [Tokenomics](core-concepts/tokenomics.md)
 
 ## Features
 

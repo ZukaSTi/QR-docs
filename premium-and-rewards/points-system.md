@@ -85,7 +85,7 @@ Global user ranking by total points. Compete with others and climb the ranks!
 
 **What are points for?**
 
-Points determine your league and leaderboard position. Future — additional utility and conversion.
+Points determine your share of the daily **$SMRTS** distribution (2.5 million tokens/day) and your league rank. More points = more $SMRTS earned. Details: [$SMRTS Token](../core-concepts/smrt-token.md)
 
 **What does a high league give?**
 
