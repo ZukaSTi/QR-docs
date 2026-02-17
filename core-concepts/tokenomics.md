@@ -6,7 +6,7 @@
 
 ## Total Supply
 
-**10,000,000,000 SMRTS** — fixed, non-inflationary.
+**10,000,000,000 SMRT** — fixed, non-inflationary.
 
 ---
 
@@ -15,7 +15,7 @@
 ```
     ┌──────────────────────────────────────────────────┐
     │                                                  │
-    │              SMRTS Token Allocation               │
+    │              SMRT Token Allocation                │
     │              Total: 10,000,000,000                │
     │                                                  │
     │  ┌────────────────────────────────────────────┐  │
@@ -94,35 +94,35 @@
 
 ## Use2Earn — Daily Distribution
 
-The core mechanism: **use the app → earn points → receive $SMRTS**.
+The core mechanism: **use the app → earn points → receive $SMRT**.
 
 ```
   Day 1         Day 100       Day 1000      Day 2000
    │              │              │              │
    ▼              ▼              ▼              ▼
   2.5M          2.5M           2.5M           2.5M    ← Same daily amount
-  SMRTS         SMRTS          SMRTS          SMRTS
+  SMRT           SMRT           SMRT           SMRT
 
-  Total distributed: 5,000,000,000 SMRTS over 2,000 days
+  Total distributed: 5,000,000,000 SMRT over 2,000 days
 ```
 
 | Parameter | Value |
 |-----------|:-----:|
-| Daily pool | 2,500,000 SMRTS |
+| Daily pool | 2,500,000 SMRT |
 | Duration | 2,000 days |
-| Total | 5,000,000,000 SMRTS (50%) |
-| Start | March 1, 2026 |
+| Total | 5,000,000,000 SMRT (50%) |
+| Estimated start | March 1, 2026 (preliminary, subject to change) |
 
 ### How Your Share Is Calculated
 
 ```
-Your daily SMRTS = (Your Points / Total Points of All Users) × 2,500,000
+Your daily SMRT = (Your Points / Total Points of All Users) × 2,500,000
 ```
 
 **Example:**
 - You earned 3,000 points today
 - All users combined earned 1,000,000 points today
-- Your share: (3,000 / 1,000,000) × 2,500,000 = **7,500 SMRTS**
+- Your share: (3,000 / 1,000,000) × 2,500,000 = **7,500 SMRT**
 
 ### Maximizing Your Earnings
 
@@ -134,15 +134,15 @@ Your daily SMRTS = (Your Points / Total Points of All Users) × 2,500,000
 | Complete daily quests | Up to 375 points/day |
 | League bonus | Up to +14% on all earnings |
 
-More: [Points System](../premium-and-rewards/points-system.md) · [$SMRTS Token](smrt-token.md)
+More: [Points System](../premium-and-rewards/points-system.md) · [$SMRT Token](smrt-token.md)
 
 ---
 
 ## Staking Rewards — 25%
 
-2,500,000,000 SMRTS allocated for staking rewards:
+2,500,000,000 SMRT allocated for staking rewards:
 
-- Stake $SMRTS → earn additional $SMRTS
+- Stake $SMRT → earn additional $SMRT
 - Lock periods from 6 to 60 months
 - Longer lock = higher APY
 - Staking $500+ USD in any asset also gives +500 daily points bonus
@@ -153,13 +153,13 @@ More: [Points System](../premium-and-rewards/points-system.md) · [$SMRTS Token]
 
 ```
 ┌─────────────────────────────────────────────────┐
-│                 $SMRTS Utility                   │
+│                 $SMRT Utility                    │
 │                                                 │
 │  ┌──────────┐  ┌──────────┐  ┌──────────────┐  │
 │  │ Smart Pay│  │ Staking  │  │ Points Boost │  │
 │  │ Pay gas  │  │ Lock →   │  │ Stake $500+  │  │
 │  │ with     │  │ earn     │  │ → +500 pts   │  │
-│  │ $SMRTS   │  │ more     │  │ per day      │  │
+│  │ $SMRT    │  │ more     │  │ per day      │  │
 │  └──────────┘  └──────────┘  └──────────────┘  │
 │                                                 │
 │  ┌──────────┐  ┌──────────┐                     │
@@ -172,9 +172,9 @@ More: [Points System](../premium-and-rewards/points-system.md) · [$SMRTS Token]
 
 | Utility | Description |
 |---------|-------------|
-| **Smart Pay** | Pay transaction gas fees with $SMRTS on any EVM network |
-| **Staking** | Lock $SMRTS for additional staking rewards |
-| **Points Boost** | Stake $500+ → +500 daily points → earn more $SMRTS |
+| **Smart Pay** | Pay transaction gas fees with $SMRT on any EVM network |
+| **Staking** | Lock $SMRT for additional staking rewards |
+| **Points Boost** | Stake $500+ → +500 daily points → earn more $SMRT |
 | **Airdrops** | 5% of supply for retrodrops to active community members |
 | **Governance** | Future — community voting on ecosystem decisions |
 
@@ -190,13 +190,13 @@ Distribution is handled by an audited Solidity contract:
 - **Batch transfers:** Operators can distribute to up to 300 wallets per tx
 - **Safety:** Pausable by admin, daily distribution cap enforced on-chain
 
-> Contract address and ABI are public and verifiable on block explorers for Base, Arbitrum, and BNB Chain.
+> Contract address will be published at official launch. Currently, beta testing uses a synthetic $SMRTS token on Base mainnet that mirrors the final contract.
 
 ---
 
 ## FAQ
 
-**Is $SMRTS inflationary?**
+**Is $SMRT inflationary?**
 
 No. Total supply is fixed at 10 billion. No minting function exists.
 
@@ -212,6 +212,10 @@ Use2Earn distribution ends. All unclaimed tokens can be collected within a 30-da
 
 Yes. Fewer active users in early days = larger share of the daily pool per person. Early adoption is rewarded organically.
 
-**When will $SMRTS be tradable?**
+**When will $SMRT be tradable?**
 
 DEX liquidity is planned at TGE (100% of liquidity allocation unlocks immediately). CEX listings will follow.
+
+**What about $SMRTS from beta?**
+
+$SMRTS is a synthetic beta token fully mirroring $SMRT. All balances will be converted 1:1 at official launch.
