@@ -218,4 +218,4 @@ DEX liquidity is planned at TGE (100% of liquidity allocation unlocks immediatel
 
 **What about $SMRTS from beta?**
 
-$SMRTS is a synthetic beta token fully mirroring $SMRT. All balances will be converted 1:1 at official launch.
+$SMRTS is a synthetic beta token that mirrors $SMRT mechanics. At official launch, $SMRTS will lose its value and can be burned. The points system resets and $SMRT distribution starts fresh. The project may organize a special activity for beta participants, but this is not guaranteed.

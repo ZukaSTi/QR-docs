@@ -43,6 +43,7 @@
 
 * [Key Management](security/key-management.md)
 * [Biometric Auth](security/biometric-auth.md)
+* [Lock, Logout & Delete](security/lock-logout-delete.md)
 * [Smart Account Security](security/smart-account-security.md)
 
 ## Under The Hood

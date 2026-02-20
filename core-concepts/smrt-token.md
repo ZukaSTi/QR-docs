@@ -30,7 +30,7 @@ During the beta testing phase, QR Wallet uses a **synthetic token $SMRTS** (Smar
 - Same smart contract architecture
 - Deployed on Base mainnet for real-world testing
 
-> **Important:** $SMRTS is a temporary beta token. It will lose its value at the moment of the official $SMRT launch. All earned $SMRTS balances will be converted to $SMRT at a 1:1 ratio.
+> **Important:** $SMRTS is a temporary beta token. It will lose its value at the moment of the official $SMRT launch. The points system will be reset and $SMRT distribution will start from scratch. $SMRTS tokens can be burned after the transition.
 
 **Estimated official launch: March 1, 2026** (preliminary date, subject to change).
 
@@ -143,7 +143,7 @@ No problem. Claims are cumulative — your entire unclaimed balance is available
 
 **Is $SMRT on multiple chains?**
 
-Yes. The token will be deployed on Base, Arbitrum, and BNB Chain with the same contract address.
+Yes. $SMRT will be deployed across all EVM networks supported by QR Wallet. Initially on Base, Arbitrum, and BNB Chain — with other networks added over time.
 
 **What determines how much $SMRT I earn?**
 
@@ -151,4 +151,4 @@ Your daily points relative to all other users. More points = larger share of the
 
 **What happens to my $SMRTS from beta?**
 
-All earned $SMRTS will be converted to $SMRT at a 1:1 ratio at official launch.
+$SMRTS will lose its value at official launch. You will be able to burn your $SMRTS tokens. The project may organize a special activity for beta participants, but this is not guaranteed.
