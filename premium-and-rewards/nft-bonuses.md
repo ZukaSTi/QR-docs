@@ -28,9 +28,9 @@ Hunter NFT is the base collection for active QR Wallet users.
 |-----------|-------|
 | **Points bonus** | +500/day to daily limit |
 | **TX bonus** | +2 sponsored TX/day |
-| **Requirement** | **Year** or **Lifetime** tier |
+| **Requirement** | **Premium Black Year** or **Premium Ultra** |
 
-OG NFT is the exclusive collection for premium users. Bonus activates only with Year or Lifetime tier.
+OG NFT is the exclusive collection for Black Year and Ultra users. The bonus activates only with one of those tiers.
 
 ---
 
@@ -38,9 +38,9 @@ OG NFT is the exclusive collection for premium users. Bonus activates only with 
 
 | Combination | Points/day | TX/day |
 |-------------|:----------:|:------:|
-| Year + Hunter | 2,500 + 500 = 3,000 | 5 + 1 = 6 |
-| Year + Hunter + OG | 2,500 + 500 + 500 = 3,500 | 5 + 1 + 2 = 8 |
-| Lifetime + Hunter + OG | 3,500 + 500 + 500 = 4,500 | 10 + 1 + 2 = 13 |
+| Black Year + Hunter | 2,500 + 500 = 3,000 | 5 + 1 = 6 |
+| Black Year + Hunter + OG | 2,500 + 500 + 500 = 3,500 | 5 + 1 + 2 = 8 |
+| Ultra + Hunter + OG | 3,500 + 500 + 500 = 4,500 | 10 + 1 + 2 = 13 |
 
 > Maximum daily points cap is 5,000.
 

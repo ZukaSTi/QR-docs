@@ -38,12 +38,13 @@ The **Discovery** section contains a catalog of popular DApps by category:
 
 ## Features
 
-- **Web3 Provider Injection** — automatic wallet connection
+- **Web3 Provider Injection** — automatic wallet connection via Smart Account (Alchemy LightAccount) on supported EVM networks
 - **Transaction signing** — approve actions through the wallet
 - **WalletConnect** — support for WalletConnect protocol
 - **Favorites** — save your favorite DApps
 - **Recent** — history of visited DApps
 - **Navigation** — back, forward, refresh, home
+- **Gas modes** — sponsored, gasless, or self-pay when the dApp requests a transaction
 
 ---
 

@@ -1,6 +1,6 @@
 # EVM Chains
 
-> 10 EVM-compatible blockchains with a single Smart Account address.
+> EVM-compatible blockchains — one `0x` address format.
 
 ---
 
@@ -8,7 +8,9 @@
 
 **EVM (Ethereum Virtual Machine)** is the standard that powers Ethereum and dozens of other blockchains. All EVM networks use the same address format (`0x...`), one token standard (ERC-20), and compatible smart contracts.
 
-For you this means: **one Smart Account address works on all 10 EVM networks**.
+On **most** of these networks your **Smart Account address is the same**. Avalanche and Taiko currently use a classic EOA (no Smart Account / sponsored TX).
+
+Non-EVM networks: [Solana](solana.md), [Tron](tron.md), [Bitcoin](bitcoin.md), [Dash](dash.md).
 
 ---
 
@@ -34,9 +36,9 @@ Fast and cheap L2 by Coinbase. One of the most popular for DeFi and everyday ope
 | **Type** | L1 (mainnet) |
 | **Gas** | $1–10+ |
 | **Explorer** | [etherscan.io](https://etherscan.io) |
-| **Sponsored TX** | ✅ (temporary, until March 2026) |
+| **Sponsored TX** | ✅ |
 
-The original blockchain. Most secure and decentralized. Sponsored TX available temporarily until March 2026 as an early adopter promotion.
+The original blockchain. Most secure and decentralized. Sponsored TX are available when your daily quota allows — Ethereum gas is expensive, so use L2s when you can.
 
 ### Arbitrum
 | | |
@@ -134,19 +136,60 @@ New EVM network focused on speed and scalability.
 
 Next-gen high-performance EVM blockchain with parallel transaction execution.
 
+### Avalanche C-Chain
+| | |
+|---|---|
+| **Native Token** | AVAX |
+| **Chain ID** | 43114 |
+| **Type** | L1 |
+| **Gas** | ~$0.02 |
+| **Explorer** | [snowtrace.io](https://snowtrace.io) |
+| **Sponsored TX** | ❌ |
+| **Smart Account** | ❌ (EOA) |
+| **Smart Pay** | ✅ |
+| **Swap** | ✅ |
+
+Avalanche C-Chain. Send, receive, and swap. No Smart Account — you pay native AVAX or use Smart Pay.
+
+### ApeChain
+| | |
+|---|---|
+| **Native Token** | APE |
+| **Chain ID** | 33139 |
+| **Type** | L3 / app-chain |
+| **Gas** | ~$0.01 |
+| **Explorer** | [apescan.io](https://apescan.io) |
+| **Sponsored TX** | ✅ |
+| **Swap** | same-chain only (isolated) |
+
+### Taiko
+| | |
+|---|---|
+| **Native Token** | ETH |
+| **Chain ID** | 167000 |
+| **Type** | L2 (based rollup) |
+| **Gas** | ~$0.01 |
+| **Explorer** | [taikoscan.io](https://taikoscan.io) |
+| **Sponsored TX** | ❌ |
+| **Smart Account** | ❌ (EOA) |
+| **Swap** | ✅ |
+
 ---
 
 ## Comparison Table
 
-| Network | Gas | Sponsored | SA Activation | Speed |
-|---------|:---:|:---------:|:-------------:|:-----:|
-| Base | ~$0.01 | ✅ | ✅ ~$0.02 | 2s |
-| Ethereum | $1–10 | ✅* | ✅* ~$3.00 | 15s |
-| Arbitrum | ~$0.02 | ✅ | ✅ ~$0.03 | 2s |
-| Polygon | < $0.01 | ✅ | ✅ ~$0.01 | 3s |
-| Optimism | ~$0.01 | ✅ | ✅ ~$0.02 | 2s |
-| BNB Chain | ~$0.03 | ✅ | ✅ ~$0.05 | 3s |
-| World Chain | ~$0.01 | ✅ | ✅ ~$0.02 | 2s |
-| HyperEVM | ~$0.01 | ✅ | ✅ ~$0.02 | 1s |
-| Plasma | ~$0.01 | ✅ | ✅ ~$0.02 | 2s |
-| Monad | ~$0.01 | ✅ | ✅ ~$0.02 | 1s |
+| Network | Gas | Sponsored | SA | Speed |
+|---------|:---:|:---------:|:--:|:-----:|
+| Base | ~$0.01 | ✅ | ✅ | 2s |
+| Ethereum | $1–10 | ✅ | ✅ | 15s |
+| Arbitrum | ~$0.02 | ✅ | ✅ | 2s |
+| Polygon | < $0.01 | ✅ | ✅ | 3s |
+| Optimism | ~$0.01 | ✅ | ✅ | 2s |
+| BNB Chain | ~$0.03 | ✅ | ✅ | 3s |
+| World Chain | ~$0.01 | ✅ | ✅ | 2s |
+| HyperEVM | ~$0.01 | ✅ | ✅ | 1s |
+| Plasma | ~$0.01 | ✅ | ✅ | 2s |
+| Monad | ~$0.01 | ✅ | ✅ | 1s |
+| Avalanche | ~$0.02 | ❌ | ❌ | 2s |
+| ApeChain | ~$0.01 | ✅ | ✅ | 2s |
+| Taiko | ~$0.01 | ❌ | ❌ | 2s |

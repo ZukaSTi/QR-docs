@@ -24,7 +24,11 @@
 * [Borrowing](features/borrowing.md)
 * [Perpetual Trading](features/perpetual-trading.md)
 * [DApp Browser](features/dapp-browser.md)
-* [Buy Crypto](features/buy-crypto.md)
+* [Buy & Sell Crypto](features/buy-crypto.md)
+* [Virtual Cards](features/cards.md)
+* [Cashback](features/cashback.md)
+* [Custom Networks](features/custom-networks.md)
+* [Wallet Watcher](features/wallet-watcher.md)
 
 ## Premium & Rewards
 
@@ -39,6 +43,8 @@
 * [EVM Chains](supported-networks/evm-chains.md)
 * [Solana](supported-networks/solana.md)
 * [Tron](supported-networks/tron.md)
+* [Bitcoin](supported-networks/bitcoin.md)
+* [Dash](supported-networks/dash.md)
 
 ## Security
 
@@ -56,4 +62,5 @@
 
 * [Integration Overview](for-partners/integration-overview.md)
 * [DApp Listing](for-partners/dapp-listing.md)
+* [Ambassador Program](for-partners/ambassador-program.md)
 * [Partnership Request](for-partners/partnership-request.md)

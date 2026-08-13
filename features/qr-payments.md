@@ -1,56 +1,78 @@
 # QR Payments
 
-> Scan — pay. Crypto payments faster than Apple Pay.
+> Scan — pay. Crypto payments in everyday life.
 
 ---
 
 ## How It Works
 
-QR Wallet supports multiple QR payment formats:
+QR Wallet lets you pay real-world bills and merchants by scanning a **local payment QR code** and settling with crypto (typically stablecoins). The merchant receives **local fiat**.
 
-### 1. QR Wallet Pay
+1. Open the in-app scanner (or Pay QR)
+2. Scan the merchant's QR code
+3. The app detects country, currency, and amount
+4. Choose which crypto to pay with
+5. Confirm with biometrics
+6. Merchant gets paid in local currency
 
-Our own QR code format for instant crypto payments:
-
-1. **Merchant** generates a QR code with amount and address
-2. **Buyer** scans the code via the in-app camera
-3. App automatically detects network, token, and amount
-4. Buyer confirms with biometrics — payment goes through in seconds
-
-### 2. Gaian Pay
-
-Integration with the Gaian Pay system for point-of-sale payments:
-
-- Scan merchant's QR code
-- Automatic payment parameter detection
-- Real-time confirmation and processing
-
-### 3. Thai QR (PromptPay)
-
-Support for the Thai EMVCo QR standard for PromptPay payments:
-
-- QR code parsing per EMVCo standard
-- Merchant info extraction
-- CRC validation
-- Payment processing via cryptocurrency
+You can also **create a QR code** to receive a crypto payment: pick token and network, optionally set an amount, then show or share the code.
 
 ---
 
-## Generating a QR Code
+## Supported Countries
 
-You can also **create a QR code** to receive payment:
+QR payments currently cover:
+
+| Country | Currency |
+|---------|:--------:|
+| **Vietnam** | VND |
+| **Thailand** | THB |
+| **Philippines** | PHP |
+| **Cambodia** | KHR |
+| **Mongolia** | MNT |
+| **Laos** | LAK |
+| **Russia** | RUB |
+| **Brazil** | BRL |
+| **Argentina** | ARS |
+
+Coverage continues to expand. Availability in a country can depend on local rails and verification.
+
+---
+
+## What You Pay With
+
+Payments are settled from your wallet in **stablecoins** (and other supported assets on the networks enabled for QR Pay). The receive screen shows which networks support QR Pay.
+
+You do not need to hold the local fiat currency.
+
+---
+
+## Cashback
+
+Eligible QR payments can earn **token cashback**. Rate depends on your Premium tier and NFTs. See [Cashback](cashback.md).
+
+---
+
+## Generating a QR Code (Receive)
 
 1. Select token and network
 2. Enter amount (optional)
 3. Share the QR code — show on screen, save, or send
 
+Works on supported EVM networks, Solana, and Tron.
+
 ---
 
-## Supported Networks
+## FAQ
 
-QR payments work on all supported networks:
-- All EVM networks (Base, Arbitrum, Polygon, etc.)
-- Solana
-- Tron
+**Do I need a bank account in that country?**
 
-The app automatically detects the network from the QR code and suggests the optimal payment route.
+No. You pay with crypto from QR Wallet. The merchant is paid in local currency on their side.
+
+**Is identity verification required?**
+
+Some corridors may ask for a short identity check before the first payment. The app will prompt you if needed.
+
+**What if the QR is not recognized?**
+
+Make sure it is a payment QR (not a random image) and that the country is in the list above. You can also paste the payload if the scanner cannot read it.

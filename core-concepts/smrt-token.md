@@ -32,7 +32,7 @@ During the beta testing phase, QR Wallet uses a **synthetic token $SMRTS** (Smar
 
 > **Important:** $SMRTS is a temporary beta token. It will lose its value at the moment of the official $SMRT launch. The points system will be reset and $SMRT distribution will start from scratch. $SMRTS tokens can be burned after the transition.
 
-**Estimated official launch: March 1, 2026** (preliminary date, subject to change).
+**Estimated official launch (TGE): Q4 2026** (preliminary date, subject to change).
 
 ---
 
@@ -70,13 +70,14 @@ $SMRT is distributed daily to active users through the **Use2Earn** model:
 
 ### 1. Smart Pay — Pay Gas with $SMRT
 
-Instead of paying gas fees in native tokens (ETH, POL, BNB), you can pay with **$SMRT**:
+Instead of paying gas fees in native tokens (ETH, POL, BNB), you can pay with **$SMRT** (Smart Pay):
 
-- Works on all supported EVM networks
+- Live today on **BNB Chain, Avalanche, and Dash**
+- More networks are added over time
 - Fee is auto-calculated at current exchange rate
-- Supports same-chain and cross-chain payments
+- Does **not** consume your sponsored TX quota
 
-> No more juggling small amounts of native tokens across networks. One token for all fees.
+> No more juggling small amounts of native tokens across those networks. See [Gas & Fees](gas-and-fees.md).
 
 ### 2. Staking
 
@@ -127,7 +128,7 @@ $SMRT distribution uses an audited smart contract with **Merkle tree-based claim
 
 **When does distribution start?**
 
-Estimated launch: **March 1, 2026** (preliminary, subject to change). From that date, 2.5 million $SMRT are distributed daily.
+Estimated TGE: **Q4 2026** (preliminary, subject to change). From that date, 2.5 million $SMRT are distributed daily.
 
 **How do I claim my $SMRT?**
 

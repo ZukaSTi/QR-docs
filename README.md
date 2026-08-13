@@ -13,8 +13,8 @@ QR Wallet is a mobile crypto wallet that makes blockchain **as simple as a regul
 **Free Transactions**
 Send crypto without paying gas. QR Wallet covers network fees for you through our sponsored transaction system.
 
-**12 Blockchains — One Wallet**
-Base, Ethereum, Arbitrum, Polygon, Optimism, BNB Chain, World Chain, HyperEVM, Plasma, Monad, Solana, Tron — all in one place with a unified balance.
+**Many Blockchains — One Wallet**
+EVM networks, Solana, Tron, Bitcoin, Dash, and more — all in one place with a unified balance. New networks are added over time.
 
 **Security Without Compromise**
 Your keys are stored only on your device. Biometric protection. No one, including us, has access to your funds.
@@ -22,8 +22,11 @@ Your keys are stored only on your device. Biometric protection. No one, includin
 **DeFi in One Tap**
 Swap, staking, borrowing, perpetual trading — all available right from the wallet without external sites.
 
+**Pay in the Real World**
+Scan a local payment QR and settle with crypto. Merchants receive local currency.
+
 **Earn While You Use**
-Points system, quests, leagues, referral program — turning routine crypto operations into an engaging experience.
+Points system, quests, leagues, referral program, and cashback — turning routine crypto operations into an engaging experience.
 
 ---
 
@@ -83,9 +86,9 @@ Check [For Partners](for-partners/integration-overview.md) — integration optio
 
 ```
 Mobile App     React Native + Expo
-Blockchain     ERC-4337 Account Abstraction
-Networks       12 chains (EVM + Solana + Tron)
-Infrastructure Alchemy (RPC, Bundler, Paymaster)
+Blockchain     ERC-4337 Account Abstraction (EVM)
+Networks       EVM + Solana + Tron + Bitcoin + Dash
+Infrastructure Bundler, Paymaster, multi-chain RPC
 Security       Biometric + Secure Enclave
 ```
 

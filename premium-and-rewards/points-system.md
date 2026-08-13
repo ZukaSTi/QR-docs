@@ -24,11 +24,13 @@ Every user has a **daily limit** that depends on their tier and bonuses:
 
 ### Example
 
-User with Year + Hunter NFT + $600 staked:
+User with Black Year + Hunter NFT + $600 staked:
 - Base: 2,500
 - Hunter NFT: +500
 - Staking: +500
 - **Total: 3,500 points/day**
+
+Base limits by tier: [Premium Tiers](premium-tiers.md)
 
 ---
 
@@ -38,7 +40,7 @@ User with Year + Hunter NFT + $600 staked:
 Primary method — completing daily and one-time quests. More: [Quests & Leagues](quests-and-leagues.md)
 
 ### 2. Auto-Points
-On Year (1,000) and Lifetime (3,500) tiers, points are credited **automatically** every day.
+On 3 Months (250), 6 Months (500), Black Year (1,000), and Ultra (3,500), points are credited **automatically** every day.
 
 ### 3. Check-in
 Daily app open (5-day cycle) with growing bonuses.
@@ -79,18 +81,4 @@ Global user ranking by total points. Compete with others and climb the ranks!
 - Daily limit resets at **00:00 UTC**
 - Unused daily limit **does not carry over** to the next day
 
----
-
-## FAQ
-
-**What are points for?**
-
-Points determine your share of the daily **$SMRTS** distribution (2.5 million tokens/day) and your league rank. More points = more $SMRTS earned. Details: [$SMRTS Token](../core-concepts/smrt-token.md)
-
-**What does a high league give?**
-
-Bonus to point earnings (up to +14% for Legend) and community status.
-
-**Can I lose points?**
-
-No. Points only accumulate, they are never deducted.
+> At official $SMRT TGE (estimated **Q4 2026**), the points system is reset and distribution starts from scratch. See [$SMRT Token](../core-concepts/smrt-token.md).

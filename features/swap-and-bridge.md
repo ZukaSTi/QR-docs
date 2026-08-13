@@ -10,7 +10,7 @@ Exchange one token for another right in the wallet, without external sites.
 
 ### How It Works
 
-1. Select **network** (Base, Arbitrum, Solana, etc.)
+1. Select **network** (Base, Arbitrum, Solana, Avalanche, etc.)
 2. Select **FROM** token (what you give) and **TO** token (what you get)
 3. Enter amount
 4. Review quote: rate, slippage, fee
@@ -26,12 +26,20 @@ The app automatically finds the best route through multiple DEX aggregators.
 | **PancakeSwap V3** | BNB Chain |
 | **Jupiter** | Solana |
 | **SunSwap** | Tron |
-| **LI.FI** | Cross-chain (all EVM) |
-| **Rango** | Cross-chain (all EVM + Solana + Tron) |
+| **LI.FI** | Cross-chain (EVM) |
+| **Rango** | Cross-chain (EVM + Solana + Tron) |
 
 ### Supported Swap Networks
 
-Base, Ethereum, Arbitrum, Polygon, Optimism, BNB Chain, World Chain, Solana, Tron
+Base, Ethereum, Arbitrum, Polygon, Optimism, BNB Chain, World Chain, Avalanche, Taiko, ApeChain, Solana, Tron
+
+**Not available for swap:** Bitcoin, Dash.
+
+### Isolated Networks
+
+Same-chain swaps work; **cross-chain** routes are limited or unavailable:
+
+Tron, Monad, Plasma, ApeChain
 
 ---
 
@@ -56,7 +64,7 @@ Bridge is integrated directly into the Swap interface:
 
 ### Minimum Amount
 
-For cross-chain swaps, minimum amount is **$0.10**, as bridge fees can consume very small amounts.
+For cross-chain swaps, amounts below **$1** may be inefficient — bridge fees can consume a large share. The app shows a warning; it is not a hard block.
 
 ---
 
@@ -64,17 +72,17 @@ For cross-chain swaps, minimum amount is **$0.10**, as bridge fees can consume v
 
 | Type | Fee |
 |------|-----|
-| **Swap (same-chain)** | 0.3% of amount |
-| **Bridge (cross-chain)** | 0.3% + bridge fee |
-| **Gas** | Sponsored / Gasless / Self-pay |
+| **Swap (same-chain)** | DEX liquidity fee (varies by pool, often ~0.3%) |
+| **Bridge (cross-chain)** | DEX/bridge fee + provider fee |
+| **Gas** | Sponsored / Smart Pay / Gasless / Self-pay |
 
-> Swap fee is the DEX liquidity fee. Gas is a separate network fee that can be covered by sponsored TX.
+> Gas is a separate network fee that can be covered by sponsored TX or Smart Pay.
 
 ---
 
 ## Settings
 
-- **Slippage** — default 0.5%, configurable
+- **Slippage** — default 0.5%, configurable (including auto)
 - **Deadline** — order lifetime
 - **Price impact** — warning on high impact
 
@@ -88,7 +96,7 @@ Slippage protection — if price moves more than the allowed %, the transaction 
 
 **Can I swap ETH for SOL?**
 
-Yes. Cross-chain swap via Rango enables exchange between any supported networks.
+Yes, via a cross-chain route on supported pairs. You cannot swap to or from Bitcoin or Dash.
 
 **How long does a bridge take?**
 

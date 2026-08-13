@@ -56,7 +56,7 @@ Your Smart Account has the **exact same address** across all EVM networks:
 
 This is possible thanks to **CREATE2** technology — the address is mathematically derived from the owner's address, independent of any specific network.
 
-> Anyone can send you tokens on any supported network — the address is always the same.
+> Anyone can send you tokens on any **Smart Account** EVM network — the address is always the same. Solana, Tron, Bitcoin, and Dash use different addresses. Avalanche and Taiko use the EOA.
 
 ---
 
@@ -80,9 +80,9 @@ Before sending transactions via SA, you need to **activate** it on each network 
 | Polygon | Sponsored | ~$0.01 (free for you) |
 | Arbitrum | Sponsored | ~$0.03 (free for you) |
 | BNB Chain | Sponsored | ~$0.05 (free for you) |
-| Ethereum | Sponsored (temporary) | ~$3.00 (free until March 2026) |
+| Ethereum | Sponsored | ~$3.00 (QR Wallet covers when sponsored TX are available) |
 
-> On L2 networks, activation costs pennies and QR Wallet covers it. On Ethereum, activation is temporarily sponsored until March 2026 as part of an early adopter promotion.
+> On L2 networks, activation costs pennies and QR Wallet covers it. Avalanche and Taiko do not use Smart Accounts — they use a classic EOA. Bitcoin and Dash are separate non-EVM addresses.
 
 ### Auto-Activation
 
@@ -102,10 +102,12 @@ The number of networks where you can activate SA depends on your tier:
 | Tier | Activations |
 |------|:-----------:|
 | Free | 0 |
-| Day | 1 network |
-| Month | 2 networks |
-| Year | 10 networks |
-| Lifetime | 25 networks |
+| Premium 1 Month | 1 network |
+| Premium 3 Months | 1 network |
+| Premium 6 Months | 2 networks |
+| Premium Black Month | 2 networks |
+| Premium Black Year | 10 networks |
+| Premium Ultra | 25 networks |
 
 More on tiers: [Premium Tiers](../premium-and-rewards/premium-tiers.md)
 
@@ -115,7 +117,7 @@ More on tiers: [Premium Tiers](../premium-and-rewards/premium-tiers.md)
 
 Smart Account in QR Wallet is built on the **ERC-4337 (Account Abstraction)** standard — an open Ethereum standard for programmable wallets.
 
-We use audited **Alchemy LightAccount** contracts — a proven and secure solution deployed across all supported networks.
+We use audited **Alchemy LightAccount** contracts — a proven and secure solution on Smart Account EVM networks (not Bitcoin, Dash, Avalanche, or Taiko).
 
 Deep dive: [ERC-4337 Deep Dive](../under-the-hood/erc-4337.md)
 

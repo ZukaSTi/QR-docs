@@ -9,13 +9,13 @@
 ### How to Send Tokens
 
 1. **Select token** — from your token list or via search
-2. **Select network** — which chain to send on (Base, Arbitrum, etc.)
-3. **Enter address** — manually, paste from clipboard, or scan a QR code
+2. **Select network** — which chain to send on (Base, Bitcoin, Dash, etc.)
+3. **Enter address** — manually, paste from clipboard, address book, or scan a QR code
 4. **Enter amount** — in tokens or USD
-5. **Choose gas payment** — sponsored, gasless, or self-pay
+5. **Choose gas payment** — sponsored, Smart Pay, gasless, or self-pay (where available)
 6. **Confirm** — via biometrics (Face ID / fingerprint)
 
-Transaction is sent through Smart Account and confirms in 2–7 seconds on L2 networks.
+On Smart Account networks, confirmation is typically 2–7 seconds on L2. Bitcoin and Dash follow their own confirmation times.
 
 ### Smart Features
 
@@ -24,6 +24,8 @@ Transaction is sent through Smart Account and confirms in 2–7 seconds on L2 ne
 - **QR scanner** — built-in scanner for reading addresses and QR payments
 - **Address validation** — warning when sending to a contract or unknown address
 
+> **Never change letter case** on Solana, Tron, Bitcoin, or Dash addresses. They are case-sensitive. Only EVM addresses (`0x…`) are case-insensitive.
+
 ---
 
 ## Receiving
@@ -31,25 +33,30 @@ Transaction is sent through Smart Account and confirms in 2–7 seconds on L2 ne
 ### How to Receive Tokens
 
 1. Open the **Receive** screen
-2. Show the sender your **QR code** or copy your **address**
-3. Address is the same for all EVM networks — sender chooses the network on their side
+2. Pick the **network** if needed (EVM vs Bitcoin vs Dash vs Solana vs Tron)
+3. Show the sender your **QR code** or copy your **address**
+
+Networks that support [QR Payments](qr-payments.md) may show a QR Pay badge.
 
 ### Addresses by Network Type
 
 | Type | Address | Format |
 |------|---------|--------|
-| EVM networks | Smart Account address | `0x...` (same across all EVM) |
-| Solana | Solana wallet | Base58 format |
-| Tron | Tron wallet | `T...` format |
+| EVM (Smart Account) | SA address | `0x...` (same across SA networks) |
+| Avalanche / Taiko | EOA | `0x...` |
+| Solana | Solana wallet | Base58 |
+| Tron | Tron wallet | `T...` |
+| Bitcoin | Bitcoin wallet | Native BTC address |
+| Dash | Dash wallet | Starts with `X` |
 
 ---
 
 ## Supported Tokens
 
-- **Native tokens**: ETH, POL, BNB, SOL, TRX, HYPE, XPL, MON, etc.
-- **Stablecoins**: USDC, USDT, DAI on all networks
+- **Native tokens**: ETH, POL, BNB, SOL, TRX, BTC, DASH, AVAX, HYPE, XPL, MON, APE, etc.
+- **Stablecoins**: USDC, USDT, DAI on supported networks
 - **ERC-20 / SPL / TRC-20**: any standard tokens
-- **Custom tokens**: add by contract address
+- **Custom tokens**: add by contract address on EVM
 
 ---
 

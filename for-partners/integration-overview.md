@@ -12,7 +12,7 @@ Accept crypto payments via QR codes:
 
 - Integration in minutes via API
 - Stablecoin support (USDC, USDT)
-- 12 blockchains — buyer pays on whichever network they prefer
+- Multiple blockchains — buyer pays on a supported network
 - Instant confirmation on L2 networks
 - Webhooks for automated processing
 
@@ -57,10 +57,11 @@ Add your token to QR Wallet's Token Registry:
 | Advantage | Description |
 |-----------|------------|
 | **Free TX** | Users aren't afraid of fees — higher conversion |
-| **12 networks** | Maximum audience reach |
+| **Multi-chain** | EVM, Solana, Tron, Bitcoin, Dash, and growing |
 | **Mobile focus** | Optimized for mobile UX |
 | **Gamification** | Motivation for active usage |
 | **18 languages** | Global audience |
+| **Ambassadors** | Invite-only partner tiers — [details](ambassador-program.md) |
 
 ---
 

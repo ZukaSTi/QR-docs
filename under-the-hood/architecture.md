@@ -12,9 +12,10 @@
 | **State Management** | Zustand |
 | **Web3** | viem, permissionless.js |
 | **Navigation** | expo-router |
-| **Blockchain** | ERC-4337 Account Abstraction |
-| **Infrastructure** | Alchemy (RPC, Bundler, Paymaster) |
+| **Blockchain** | ERC-4337 Account Abstraction (EVM Smart Account networks) |
+| **Infrastructure** | Bundler, Paymaster, multi-chain RPC |
 | **Security** | Biometric + Secure Enclave |
+| **Networks** | EVM + Solana + Tron + Bitcoin + Dash |
 
 ---
 
@@ -54,23 +55,24 @@ UI never talks to Infrastructure directly — only through the Application layer
 Working with different blockchains is unified through an abstraction layer:
 
 ```
-┌──────────────────────────────────────┐
-│            Chain Core                 │
-│                                      │
-│  ┌──────────┐ ┌──────┐ ┌──────────┐ │
-│  │   EVM    │ │Solana│ │   Tron   │ │
-│  │ Provider │ │Provid│ │ Provider │ │
-│  └──────────┘ └──────┘ └──────────┘ │
-│                                      │
-│  ChainRegistry → ChainConfigProvider │
-│                                      │
-│  Unified interface for all operations│
-└──────────────────────────────────────┘
+┌──────────────────────────────────────────────────┐
+│                   Chain Core                      │
+│                                                   │
+│  ┌─────┐ ┌──────┐ ┌────┐ ┌───────┐ ┌────┐       │
+│  │ EVM │ │Solana│ │Tron│ │Bitcoin│ │Dash│       │
+│  └─────┘ └──────┘ └────┘ └───────┘ └────┘       │
+│                                                   │
+│  ChainRegistry → ChainConfigProvider              │
+│  Unified interface + per-chain capabilities       │
+└──────────────────────────────────────────────────┘
 ```
 
-- **ChainRegistry** — registry of all supported networks
+- **ChainRegistry** — registry of all supported networks (visibility can be toggled remotely)
 - **ChainConfigProvider** — configuration and capabilities per chain
-- **TransactionService** — unified TX sending (EVM, Solana, Tron)
+- **TransactionService** — unified sending per family (EVM Smart Account, EOA, Solana, Tron, Bitcoin, Dash)
+- **Custom EVM networks** — user-added RPCs, no Smart Account
+
+Smart Account (ERC-4337 LightAccount) is used on supported EVM networks only. Bitcoin, Dash, Avalanche, and Taiko use classic accounts.
 
 ---
 

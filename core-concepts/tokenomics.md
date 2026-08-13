@@ -111,7 +111,7 @@ The core mechanism: **use the app → earn points → receive $SMRT**.
 | Daily pool | 2,500,000 SMRT |
 | Duration | 2,000 days |
 | Total | 5,000,000,000 SMRT (50%) |
-| Estimated start | March 1, 2026 (preliminary, subject to change) |
+| Estimated start | Q4 2026 (preliminary, subject to change) |
 
 ### How Your Share Is Calculated
 

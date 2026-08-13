@@ -1,49 +1,39 @@
-# Buy Crypto
+# Buy & Sell Crypto
 
-> Buy crypto with fiat right in the app — bank card, Apple Pay, Google Pay.
-
----
-
-## How to Buy
-
-1. Go to the **Buy Crypto** section
-2. Select **cryptocurrency** and **network**
-3. Select **fiat currency** (USD, EUR, GBP, etc.)
-4. Enter amount
-5. Pay through the Transak widget — card, Apple Pay, bank transfer
-
-Crypto arrives directly at your Smart Account address.
+> Buy and sell crypto with fiat — coming soon.
 
 ---
 
-## Provider: Transak
+## Status
 
-QR Wallet uses **Transak** — a licensed fiat on-ramp operating in 150+ countries:
+The **Buy / Sell crypto** section is **being connected**. It is not fully live for all users yet.
 
-- Bank cards (Visa, Mastercard)
-- Apple Pay, Google Pay
-- SEPA, bank transfers
-- Support for 100+ cryptocurrencies
-- KYC built into the purchase flow
+When it opens, you will be able to:
+
+- **Buy** crypto with a bank card, Apple Pay, or Google Pay
+- **Sell** crypto back to fiat
+- Receive funds directly to your wallet address on the selected network
+
+Identity verification (KYC) will be part of the purchase flow — this is required by on-ramp partners, not by QR Wallet itself.
 
 ---
 
-## Supported Networks
+## What to Use Today
 
-All QR Wallet networks — cryptocurrency is sent directly to your address on the selected network.
+Until Buy / Sell is live:
+
+- Ask someone to [send](send-and-receive.md) crypto to your receive address or QR
+- Use [Swap](swap-and-bridge.md) to exchange tokens you already hold
+- Use [QR Payments](qr-payments.md) to spend crypto in supported countries
 
 ---
 
 ## FAQ
 
-**Is verification required?**
+**When will it launch?**
 
-Yes, Transak requires KYC (Know Your Customer). First purchase may require document verification. Subsequent ones are faster.
+We are connecting the rails now. The section will appear in the app when it is ready — no extra download required for OTA-enabled builds.
 
-**What's the fee?**
+**Which currencies and networks?**
 
-Transak fee is usually 1–3% of the amount — depends on payment method and region.
-
-**How long does it take?**
-
-Card / Apple Pay — usually 1–5 minutes. Bank transfer — up to several hours.
+The live list will be shown in the app. We will not lock a provider name here — routing can change as we add partners.

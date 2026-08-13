@@ -6,13 +6,13 @@
 
 ## How It Works
 
-Every blockchain transaction requires "gas" — a network fee. In most wallets, users pay gas themselves in native tokens (ETH, MATIC, BNB).
+Every blockchain transaction requires "gas" — a network fee. In most wallets, users pay gas themselves in native tokens (ETH, POL, BNB).
 
 QR Wallet does it differently. When you send a transaction:
 
 1. The app checks: do you have remaining sponsored TX?
 2. If **yes** → QR Wallet pays the gas via **Paymaster**
-3. If **no** → you're offered stablecoin or native token payment
+3. If **no** → you're offered Smart Pay, stablecoin (gasless), or native token payment
 
 > **Paymaster** is a smart contract that signs permission to pay gas on behalf of the user. The blockchain charges the Paymaster, not your wallet.
 
@@ -32,6 +32,7 @@ Step 3   Build UserOperation
           ↓
 Step 4   Request Paymaster
           Sponsored → Paymaster signs that it will pay
+          Smart Pay → fee paid in $SMRT (or supported tokens)
           Gasless   → fee calculated in USDC/USDT
           Self-pay  → gas calculated in native token
           ↓
@@ -55,8 +56,10 @@ Step 10  Done! Funds delivered.
 | Network | Time |
 |---------|------|
 | Base, Optimism, Arbitrum | 2–5 seconds |
-| Polygon, BNB Chain | 3–7 seconds |
+| Polygon, BNB Chain, Avalanche | 3–7 seconds |
 | Ethereum | 15–30 seconds |
+
+Bitcoin and Dash confirm on their own networks (typically minutes, depending on fees).
 
 ---
 
@@ -69,9 +72,10 @@ Step 10  Done! Funds delivered.
 | Bridge (cross-chain) | ✅ |
 | Staking | ✅ |
 | Borrow | ✅ |
-| Buy Premium | ✅ |
+| Buy Premium (crypto) | ✅ |
 | Receive tokens | ❌ |
 | SA Activation | ❌ (separate limit) |
+| Smart Pay | ❌ (separate quota) |
 
 ---
 
@@ -86,10 +90,12 @@ Step 10  Done! Funds delivered.
 | Tier | Sponsored TX/day |
 |------|:----------------:|
 | Free | 0 |
-| Day | 0 |
-| Month | 3 |
-| Year | 5 |
-| Lifetime | 10 |
+| Premium 1 / 3 / 6 Months | 1 |
+| Premium Black Month | 2 |
+| Premium Black Year | 5 |
+| Premium Ultra | 10 |
+
+Free users also receive **1 welcome static TX** (does not reset daily).
 
 ### NFT Bonuses to Daily Limit
 
@@ -98,13 +104,13 @@ Step 10  Done! Funds delivered.
 | Hunter NFT | +1 |
 | OG NFT | +2 |
 
-**Example:** Year + Hunter NFT + OG NFT = 5 + 1 + 2 = **8 TX/day**
+**Example:** Black Year + Hunter NFT + OG NFT = 5 + 1 + 2 = **8 TX/day**
 
 ---
 
 ## Static TX
 
-In addition to daily limits, you may have **static sponsored TX** — they **don't reset** daily. These are bonus TX earned through promotions, referral programs, and other activities.
+In addition to daily limits, you may have **static sponsored TX** — they **don't reset** daily. These are bonus TX earned through promotions, referral programs, and other activities. The welcome TX for new users is static.
 
 **Spending priority:** daily TX are consumed first, then static.
 
@@ -112,30 +118,40 @@ In addition to daily limits, you may have **static sponsored TX** — they **don
 
 ## Supported Networks
 
-| Network | Sponsored TX | Cost for QR Wallet |
-|---------|:-----------:|:------------------:|
-| Base | ✅ | ~$0.02 |
-| Arbitrum | ✅ | ~$0.03 |
-| Polygon | ✅ | ~$0.01 |
-| Optimism | ✅ | ~$0.02 |
-| BNB Chain | ✅ | ~$0.05 |
-| World Chain | ✅ | ~$0.02 |
-| HyperEVM | ✅ | ~$0.02 |
-| Monad | ✅ | ~$0.02 |
-| Plasma | ✅ | ~$0.02 |
-| Ethereum | ✅ (temporary) | ~$3–10 |
+Sponsored transactions work on Smart Account networks (most EVM L2s, plus Ethereum and Solana via a separate fee sponsorship path).
 
-> **Ethereum:** Sponsored transactions on Ethereum are available **temporarily until March 2026** as part of an early adopter promotion. After that, Ethereum will switch to self-pay/gasless mode due to high gas costs.
+They are **not** used on Bitcoin, Dash, Avalanche, or Taiko — those networks use native fees (or Smart Pay where available).
+
+| Network | Sponsored TX |
+|---------|:-----------:|
+| Base | ✅ |
+| Arbitrum | ✅ |
+| Polygon | ✅ |
+| Optimism | ✅ |
+| BNB Chain | ✅ |
+| World Chain | ✅ |
+| HyperEVM | ✅ |
+| Monad | ✅ |
+| Plasma | ✅ |
+| ApeChain | ✅ |
+| Ethereum | ✅ |
+| Solana | ✅ (separate mechanism) |
+| Avalanche | ❌ (EOA / native fees) |
+| Taiko | ❌ (EOA / native fees) |
+| Bitcoin | ❌ |
+| Dash | ❌ |
+| Tron | ❌ (energy / bandwidth) |
 
 ---
 
 ## What If TX Run Out?
 
-You're **not locked out**. Three options:
+You're **not locked out**. Options:
 
-1. **Gasless** — pay gas in USDC/USDT (stablecoins)
-2. **Self-pay** — pay gas in native token (ETH, POL, BNB)
-3. **Wait** — limit resets at 00:00 UTC
+1. **Smart Pay** — pay the fee in $SMRT (BNB Chain, Avalanche, Dash — more networks over time)
+2. **Gasless** — pay gas in USDC/USDT (stablecoins)
+3. **Self-pay** — pay gas in native token (ETH, POL, BNB, AVAX, DASH, BTC, …)
+4. **Wait** — daily limit resets at 00:00 UTC
 
 ---
 
@@ -147,8 +163,8 @@ No. If a transaction fails, the sponsored TX is not consumed.
 
 **Can I check my remaining balance?**
 
-Yes — the Premium card in the app shows usage: `3/5 TX`.
+Yes — the Premium card in the app shows usage, for example `3/5 TX`.
 
-**Does it work on Solana?**
+**Does Smart Pay use my sponsored TX?**
 
-Yes, Solana uses a separate fee sponsorship mechanism.
+No. Smart Pay has its own quota and does not consume sponsored TX.
