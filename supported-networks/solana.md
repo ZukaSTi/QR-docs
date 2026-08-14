@@ -18,7 +18,7 @@ Solana is a high-performance blockchain with throughput up to 65,000 transaction
 
 ---
 
-## QR Wallet Integration
+## [QR] wallet Integration
 
 ### Separate Address
 Unlike EVM networks, Solana uses its own address format (Base58). Your Solana address is **different** from your EVM Smart Account address.
@@ -39,7 +39,7 @@ SOL staking via **Marinade Finance**:
 Transfer tokens between Solana and EVM networks via Rango — bridge aggregator.
 
 ### Gas Sponsorship
-Solana uses a separate sponsorship mechanism — via fee payer. QR Wallet can sponsor fees on Solana, similar to EVM networks.
+Solana uses a separate sponsorship mechanism — via fee payer. [QR] wallet can sponsor fees on Solana, similar to EVM networks.
 
 ---
 

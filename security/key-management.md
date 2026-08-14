@@ -4,16 +4,16 @@
 
 ---
 
-## Non-Custodial Approach
+## Self-Custody (Non-Custodial) Approach
 
-QR Wallet is a **non-custodial** wallet. This means:
+[QR] wallet is a **self-custody (non-custodial)** wallet. This means:
 
 - Private keys are stored **only on your device**
-- QR Wallet **cannot access** your keys
-- QR Wallet **cannot** freeze your funds
+- [QR] wallet **cannot access** your keys
+- [QR] wallet **cannot** freeze your funds
 - No one but you **can** make a transaction
 
-> **Comparison:** In custodial services (exchanges like Binance, Coinbase), your keys are held by the company. If they block your account — you lose access. In QR Wallet, this cannot happen.
+> **Comparison:** In custodial services (exchanges like Binance, Coinbase), your keys are held by the company. If they block your account — you lose access. In [QR] wallet, this cannot happen.
 
 ---
 
@@ -60,7 +60,7 @@ The mnemonic phrase is the **only way to recover** your wallet. Store it:
 - In a password manager (1Password, Bitwarden)
 - **Never** in notes, messengers, or cloud storage
 
-> If you lose your device and haven't saved the seed phrase — access to funds is lost forever. QR Wallet cannot recover it.
+> If you lose your device and haven't saved the seed phrase — access to funds is lost forever. [QR] wallet cannot recover it.
 
 ---
 
@@ -75,7 +75,7 @@ You can import an existing wallet:
 
 ## FAQ
 
-**Can QR Wallet see my private key?**
+**Can [QR] wallet see my private key?**
 
 No. The key is stored in the device's Secure Storage and never leaves it.
 
@@ -83,7 +83,7 @@ No. The key is stored in the device's Secure Storage and never leaves it.
 
 Restore the wallet on a new device using your seed phrase. All funds intact.
 
-**What if QR Wallet shuts down?**
+**What if [QR] wallet shuts down?**
 
 Your funds are on the blockchain — nobody can take them away. Recovery depends on where your funds are:
 
@@ -93,11 +93,11 @@ Your funds are on the blockchain — nobody can take them away. Recovery depends
 
 1. Import your seed phrase into any **ERC-4337 compatible wallet**
 2. The wallet will derive your EOA → compute your SA address → give you full access
-3. You can withdraw staked positions, transfer tokens — everything, just like in QR Wallet
+3. You can withdraw staked positions, transfer tokens — everything, just like in [QR] wallet
 
 > **Why can't I see SA funds in MetaMask?** MetaMask only shows EOA balances. It does not support Smart Accounts (ERC-4337). This doesn't mean your funds are lost — it means you need a wallet that supports this standard.
 
-> **Important:** ERC-4337 is an open Ethereum standard, not proprietary to QR Wallet. Multiple independent wallets and tools support it. Your Smart Account is a standard on-chain contract — it will exist as long as the blockchain exists.
+> **Important:** ERC-4337 is an open Ethereum standard, not proprietary to [QR] wallet. Multiple independent wallets and tools support it. Your Smart Account is a standard on-chain contract — it will exist as long as the blockchain exists.
 
 **Solana funds** — import your seed phrase into any Solana wallet (Phantom, Solflare, etc.).
 

@@ -1,12 +1,12 @@
 # DApp Listing
 
-> Feature your DApp in the QR Wallet Discovery catalog.
+> Feature your DApp in the [QR] wallet Discovery catalog.
 
 ---
 
 ## What Is Discovery?
 
-Discovery is the built-in DApp catalog in QR Wallet. Users can open your DApp directly from the wallet with automatic connection.
+Discovery is the built-in DApp catalog in [QR] wallet. Users can open your DApp directly from the wallet with automatic connection.
 
 ---
 

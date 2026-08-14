@@ -6,7 +6,7 @@
 
 ## Overview
 
-QR Wallet releases **NFT collections** — owning them provides permanent bonuses to the points system and sponsored transactions.
+[QR] wallet releases **NFT collections** — owning them provides permanent bonuses to the points system and sponsored transactions. Auto-points from NFTs apply only while the NFT is **equipped**.
 
 ---
 
@@ -14,11 +14,12 @@ QR Wallet releases **NFT collections** — owning them provides permanent bonuse
 
 | Parameter | Value |
 |-----------|-------|
-| **Points bonus** | +500/day to daily limit |
+| **Daily limit** | +500/day |
+| **Auto-points** | +500/day while equipped |
 | **TX bonus** | +1 sponsored TX/day |
 | **Requirement** | None — available to all |
 
-Hunter NFT is the base collection for active QR Wallet users.
+Hunter NFT is the base collection for active [QR] wallet users.
 
 ---
 
@@ -26,11 +27,12 @@ Hunter NFT is the base collection for active QR Wallet users.
 
 | Parameter | Value |
 |-----------|-------|
-| **Points bonus** | +500/day to daily limit |
+| **Daily limit** | +500/day |
+| **Auto-points** | +500/day while equipped |
 | **TX bonus** | +2 sponsored TX/day |
-| **Requirement** | **Premium Black Year** or **Premium Ultra** |
+| **Purchase** | **Premium Black Year** or **Premium Ultra** |
 
-OG NFT is the exclusive collection for Black Year and Ultra users. The bonus activates only with one of those tiers.
+OG NFT can be **bought** only with Black Year or Ultra. Auto-points, daily-limit, and TX bonuses keep working after Premium expires, as long as the NFT stays equipped.
 
 ---
 

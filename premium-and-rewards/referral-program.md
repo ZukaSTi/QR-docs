@@ -6,7 +6,7 @@
 
 ## How It Works
 
-Every QR Wallet user gets a **unique referral link**. Share it — and earn rewards for every friend who joins.
+Every [QR] wallet user gets a **unique referral link**. Share it — and earn rewards for every friend who joins.
 
 ---
 

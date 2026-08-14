@@ -6,7 +6,7 @@
 
 ## How It Works
 
-QR Wallet lets you pay real-world bills and merchants by scanning a **local payment QR code** and settling with crypto (typically stablecoins). The merchant receives **local fiat**.
+[QR] wallet lets you pay real-world bills and merchants by scanning a **local payment QR code** and settling with crypto (typically stablecoins). The merchant receives **local fiat**.
 
 1. Open the in-app scanner (or Pay QR)
 2. Scan the merchant's QR code
@@ -67,7 +67,7 @@ Works on supported EVM networks, Solana, and Tron.
 
 **Do I need a bank account in that country?**
 
-No. You pay with crypto from QR Wallet. The merchant is paid in local currency on their side.
+No. You pay with crypto from [QR] wallet. The merchant is paid in local currency on their side.
 
 **Is identity verification required?**
 

@@ -1,6 +1,6 @@
 # Dash
 
-> Fast UTXO payments — live in QR Wallet.
+> Fast UTXO payments — live in [QR] wallet.
 
 ---
 

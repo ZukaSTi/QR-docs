@@ -14,7 +14,7 @@ When it opens, you will be able to:
 - **Sell** crypto back to fiat
 - Receive funds directly to your wallet address on the selected network
 
-Identity verification (KYC) will be part of the purchase flow — this is required by on-ramp partners, not by QR Wallet itself.
+Identity verification (KYC) will be part of the purchase flow — this is required by on-ramp partners, not by [QR] wallet itself.
 
 ---
 

@@ -6,7 +6,7 @@
 
 ## The Idea
 
-Cryptocurrencies exist on different blockchains — and usually each one requires its own wallet, its own gas token, its own interface. QR Wallet **unifies everything** into a single app.
+Cryptocurrencies exist on different blockchains — and usually each one requires its own wallet, its own gas token, its own interface. [QR] wallet **unifies everything** into a single app.
 
 Your assets on Base, Ethereum, Solana, Bitcoin, Dash, and Tron — all displayed as a **single USD balance**.
 

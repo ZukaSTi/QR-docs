@@ -8,7 +8,7 @@
 
 A **Smart Account (SA)** is your personal smart contract on the blockchain. Unlike a regular wallet, it can:
 
-- **Skip gas payments** — QR Wallet or stablecoins can cover the fee
+- **Skip gas payments** — [QR] wallet or stablecoins can cover the fee
 - **Execute multiple actions at once** — e.g., approve + transfer in a single transaction
 - **Work identically across all networks** — same address on Base, Arbitrum, Polygon, and others
 
@@ -18,7 +18,7 @@ A **Smart Account (SA)** is your personal smart contract on the blockchain. Unli
 
 ## How It Works
 
-When you create a wallet in QR Wallet, **two** wallets are actually created:
+When you create a wallet in [QR] wallet, **two** wallets are actually created:
 
 ```
 ┌─────────────────────────────────────┐
@@ -68,7 +68,7 @@ Before sending transactions via SA, you need to **activate** it on each network 
 
 | Method | Who Pays | Where |
 |--------|----------|-------|
-| **Sponsored** | QR Wallet (free) | All L2 networks |
+| **Sponsored** | [QR] wallet (free) | All L2 networks |
 | **Self-pay** | User (native token) | Ethereum |
 | **Gasless** | User (USDC/USDT) | When sponsored is unavailable |
 
@@ -80,9 +80,9 @@ Before sending transactions via SA, you need to **activate** it on each network 
 | Polygon | Sponsored | ~$0.01 (free for you) |
 | Arbitrum | Sponsored | ~$0.03 (free for you) |
 | BNB Chain | Sponsored | ~$0.05 (free for you) |
-| Ethereum | Sponsored | ~$3.00 (QR Wallet covers when sponsored TX are available) |
+| Ethereum | Sponsored | ~$3.00 ([QR] wallet covers when sponsored TX are available) |
 
-> On L2 networks, activation costs pennies and QR Wallet covers it. Avalanche and Taiko do not use Smart Accounts — they use a classic EOA. Bitcoin and Dash are separate non-EVM addresses.
+> On L2 networks, activation costs pennies and [QR] wallet covers it. Avalanche and Taiko do not use Smart Accounts — they use a classic EOA. Bitcoin and Dash are separate non-EVM addresses.
 
 ### Auto-Activation
 
@@ -115,7 +115,7 @@ More on tiers: [Premium Tiers](../premium-and-rewards/premium-tiers.md)
 
 ## Technology
 
-Smart Account in QR Wallet is built on the **ERC-4337 (Account Abstraction)** standard — an open Ethereum standard for programmable wallets.
+Smart Account in [QR] wallet is built on the **ERC-4337 (Account Abstraction)** standard — an open Ethereum standard for programmable wallets.
 
 We use audited **Alchemy LightAccount** contracts — a proven and secure solution on Smart Account EVM networks (not Bitcoin, Dash, Avalanche, or Taiko).
 

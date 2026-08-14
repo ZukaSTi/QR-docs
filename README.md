@@ -1,17 +1,18 @@
-# QR Wallet
+# [QR] wallet
 
-> Non-custodial multi-chain wallet with free transactions, DeFi, and gamification.
+> A self-custody (non-custodial) multichain crypto-fiat mobile wallet powered by account abstraction with qr payments and gamification for everyone, worldwide!
+> Pay via local QR codes with your crypto at the best rates and instantly!
+>
+> Scan. Pay. Enjoy!
 
 ---
 
-## What is QR Wallet?
+## The main features:
 
-QR Wallet is a mobile crypto wallet that makes blockchain **as simple as a regular banking app**. No need to understand gas, seeds, or nodes — everything works out of the box.
-
-### Key Benefits
+[QR] wallet is a mobile crypto wallet that makes blockchain **as simple as a regular banking app**. No need to understand gas, seeds, or nodes — everything works out of the box.
 
 **Free Transactions**
-Send crypto without paying gas. QR Wallet covers network fees for you through our sponsored transaction system.
+Send crypto without paying gas. [QR] wallet covers network fees for you through our sponsored transaction system.
 
 **Many Blockchains — One Wallet**
 EVM networks, Solana, Tron, Bitcoin, Dash, and more — all in one place with a unified balance. New networks are added over time.
@@ -30,16 +31,14 @@ Points system, quests, leagues, referral program, and cashback — turning routi
 
 ---
 
-## Who Is This For?
+## Who is the [QR] wallet made for?
 
 | You are... | Start here |
 |------------|-----------|
-| **New to crypto** | [Core Concepts](core-concepts/smart-accounts.md) — understand how wallets, gas, and networks work |
-| **Active trader** | [Swap & Bridge](features/swap-and-bridge.md), [Perpetual Trading](features/perpetual-trading.md), [Staking](features/staking.md) |
-| **Expat or remote worker** | [Send & Receive](features/send-and-receive.md), [QR Payments](features/qr-payments.md), [Multi-Chain](core-concepts/multi-chain.md) |
-| **Business or merchant** | [QR Payments](features/qr-payments.md), [For Partners](for-partners/integration-overview.md) |
-| **Developer** | [Architecture](under-the-hood/architecture.md), [ERC-4337 Deep Dive](under-the-hood/erc-4337.md) |
-| **DeFi enthusiast** | [Staking](features/staking.md), [Borrowing](features/borrowing.md), [DApp Browser](features/dapp-browser.md) |
+| **Crypto enthusiast** | [Swap & Bridge](features/swap-and-bridge.md), [Staking](features/staking.md), [DApp Browser](features/dapp-browser.md) |
+| **Tourists** | [QR Payments](features/qr-payments.md), [Send & Receive](features/send-and-receive.md) |
+| **Digital nomad, expat, freelancer** | [QR Payments](features/qr-payments.md), [Multi-Chain](core-concepts/multi-chain.md), [Send & Receive](features/send-and-receive.md) |
+| **Remittance** | [Send & Receive](features/send-and-receive.md), [QR Payments](features/qr-payments.md) |
 
 ---
 

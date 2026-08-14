@@ -6,7 +6,7 @@
 
 ## Overview
 
-QR Wallet provides three distinct security actions, each with a clear purpose:
+[QR] wallet provides three distinct security actions, each with a clear purpose:
 
 | Action | When to use | Your wallet data | Login required? |
 |--------|------------|-----------------|----------------|
@@ -86,7 +86,7 @@ QR Wallet provides three distinct security actions, each with a clear purpose:
 1. **Create a new wallet** — generates a fresh seed phrase
 2. **Import an existing wallet** — enter your seed phrase to restore
 
-> **Critical:** Make sure you have backed up your seed phrase before deleting. Without it, your funds are permanently inaccessible. QR Wallet cannot recover your keys.
+> **Critical:** Make sure you have backed up your seed phrase before deleting. Without it, your funds are permanently inaccessible. [QR] wallet cannot recover your keys.
 
 **Think of it as:** Factory-resetting your wallet. Start from zero.
 

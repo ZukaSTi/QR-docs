@@ -6,9 +6,9 @@
 
 ## Who It's For
 
-The Ambassador Program is **invite-only**. We look for people and teams who already bring users to QR Wallet: communities, creators, regional leads, and companies.
+The Ambassador Program is **invite-only**. We look for people and teams who already bring users to [QR] wallet: communities, creators, regional leads, and companies.
 
-If that sounds like you, write to **partners@qr.xyz** or use the in-app partner form. Tell us your region, audience size, and how you plan to grow QR Wallet.
+If that sounds like you, write to **partners@qr.xyz** or use the in-app partner form. Tell us your region, audience size, and how you plan to grow [QR] wallet.
 
 ---
 

@@ -6,7 +6,7 @@
 
 ## Contract Audits
 
-QR Wallet uses **Alchemy LightAccount** — a wallet smart contract that has undergone multiple audits:
+[QR] wallet uses **Alchemy LightAccount** — a wallet smart contract that has undergone multiple audits:
 
 - Open source
 - Deployed on all supported EVM networks

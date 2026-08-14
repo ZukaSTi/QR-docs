@@ -10,7 +10,7 @@
 
 In traditional wallets, users **always** pay gas in the network's native token: ETH on Ethereum, POL on Polygon, BNB on BNB Chain, etc.
 
-In QR Wallet — **four modes**.
+In [QR] wallet — **four modes**.
 
 ---
 
@@ -18,10 +18,10 @@ In QR Wallet — **four modes**.
 
 ```
 User → Transaction → Paymaster pays gas → Done
-                      (QR Wallet)
+                      ([QR] wallet)
 ```
 
-- Gas is **fully paid by QR Wallet**
+- Gas is **fully paid by [QR] wallet**
 - User spends nothing — no tokens, no native currency
 - Available within your daily limit (depends on Premium tier)
 - Works on Smart Account networks

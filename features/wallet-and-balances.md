@@ -30,7 +30,7 @@ Tokens with the same symbol on several networks are **grouped** into one row. To
 
 ## Multi-Wallet & Accounts
 
-QR Wallet supports **multiple wallets** and **multiple accounts** in one app:
+[QR] wallet supports **multiple wallets** and **multiple accounts** in one app:
 
 - **Create new wallet** — generate a new seed phrase
 - **Import wallet** — from mnemonic phrase or private key

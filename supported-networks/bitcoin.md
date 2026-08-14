@@ -1,6 +1,6 @@
 # Bitcoin
 
-> Native Bitcoin in QR Wallet — balance, receive, and send.
+> Native Bitcoin in [QR] wallet — balance, receive, and send.
 
 ---
 
@@ -29,11 +29,11 @@ Bitcoin is a UTXO network. It does **not** use ERC-4337 Smart Accounts. Fees are
 
 ## What Does Not Work (Yet)
 
-- **Swap** — you cannot swap BTC inside QR Wallet
+- **Swap** — you cannot swap BTC inside [QR] wallet
 - **Bridge** — no in-app BTC ↔ EVM bridge
 - **QR fiat payments** from the Bitcoin balance (use supported QR Pay networks instead)
 
-To get BTC into other chains, send BTC out to an exchange or a dedicated bridge, then back to QR Wallet on an EVM/Solana/Tron address.
+To get BTC into other chains, send BTC out to an exchange or a dedicated bridge, then back to [QR] wallet on an EVM/Solana/Tron address.
 
 ---
 

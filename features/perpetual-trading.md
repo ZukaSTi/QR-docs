@@ -18,7 +18,7 @@ Unlike regular futures, perpetuals have no expiration date — the position stay
 
 ## Provider: Hyperliquid
 
-QR Wallet integrates with **Hyperliquid** — one of the leading decentralized exchanges for perpetual trading:
+[QR] wallet integrates with **Hyperliquid** — one of the leading decentralized exchanges for perpetual trading:
 
 - Execution speed < 1 second
 - Dozens of trading pairs (BTC, ETH, SOL, ARB, etc.)

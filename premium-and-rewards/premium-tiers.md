@@ -13,7 +13,7 @@ Premium is grouped into **Premium**, **Premium Black**, and **Premium Ultra**.
 | **Category** | — | Premium | Premium | Premium | Black | Black | Ultra |
 | **Duration** | — | 30 days | 90 days | 180 days | 30 days | 365 days | Forever |
 | **Daily points limit** | 1,000 | 1,250 | 1,350 | 1,500 | 1,750 | 2,500 | 3,500 |
-| **Auto-points** | 0 | 0 | 250 | 500 | 0 | 1,000 | 3,500 |
+| **Auto-points** | 0 | 0 | 250 | 500 | 750 | 1,000 | 3,500 |
 | **Sponsored TX/day** | 0 | 1 | 1 | 1 | 2 | 5 | 10 |
 | **SA activations** | 0 | 1 | 1 | 2 | 2 | 10 | 25 |
 | **Actions required?** | Yes | Yes | Yes | Yes | Yes | Yes | No |
@@ -45,7 +45,7 @@ Entry Premium for everyday use:
 
 For active users:
 
-- **Black Month:** 1,750 points/day, **2 sponsored TX**/day, 2 SA activations
+- **Black Month:** 1,750 points/day, **750 auto-points**, **2 sponsored TX**/day, 2 SA activations
 - **Black Year:** 2,500 points/day, **1,000 auto-points**, **5 sponsored TX**/day, **10 SA activations**
 - Black Year unlocks **OG NFT** eligibility
 
@@ -64,17 +64,21 @@ Maximum capabilities forever:
 
 ## Auto-Points
 
-Some tiers credit points **automatically** every day, even if you don't open the app:
+Some tiers and equipped NFTs credit points **automatically** every day, even if you don't open the app:
 
-| Tier | Auto-Points | Actions needed? |
+| Source | Auto-Points | Actions needed? |
 |------|:-----------:|:---------------:|
 | Free | 0 | Yes |
 | 1 Month | 0 | Yes |
 | 3 Months | 250 | Partially (for remaining 1,100) |
 | 6 Months | 500 | Partially (for remaining 1,000) |
-| Black Month | 0 | Yes |
+| Black Month | 750 | Partially (for remaining 1,000) |
 | Black Year | 1,000 | Partially (for remaining 1,500) |
 | Ultra | 3,500 | No (full limit automatically) |
+| **Hunter NFT** (equipped) | 500 | Stacks with tier |
+| **OG NFT** (equipped) | 500 | Stacks with tier |
+
+Hunter and OG auto-points require the NFT to be **equipped**. Buying OG still requires Black Year or Ultra; if Premium later expires, equipped OG keeps crediting 500 auto-points/day. See [NFT Bonuses](nft-bonuses.md) and [Points System](points-system.md).
 
 ---
 
@@ -97,7 +101,7 @@ Yes. You can buy a new period before the current one expires — time stacks.
 
 **What happens when Premium expires?**
 
-You return to the Free tier. Activated Smart Accounts remain active — that's a one-time action.
+You return to the Free tier. Activated Smart Accounts remain active — that's a one-time action. Equipped Hunter and OG NFTs keep auto-points and daily-limit bonuses after Premium expires.
 
 **Can I buy Premium with fiat?**
 

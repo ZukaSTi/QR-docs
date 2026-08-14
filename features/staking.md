@@ -12,7 +12,7 @@ Analogy: staking is like a bank deposit, but on the blockchain — with transpar
 
 ---
 
-## How to Stake in QR Wallet
+## How to Stake in [QR] wallet
 
 1. Go to the **Staking** section
 2. Select **network** and **pool** (protocol + token)

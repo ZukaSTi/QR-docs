@@ -1,6 +1,6 @@
 # Architecture
 
-> How QR Wallet is built inside — for the curious and developers.
+> How [QR] wallet is built inside — for the curious and developers.
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## Modular Architecture
 
-QR Wallet is built on a **modular architecture** — each feature is isolated in its own module with clear layers:
+[QR] wallet is built on a **modular architecture** — each feature is isolated in its own module with clear layers:
 
 ```
 modules/{feature}/

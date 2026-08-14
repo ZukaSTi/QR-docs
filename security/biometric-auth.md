@@ -6,7 +6,7 @@
 
 ## How It Works
 
-Every critical action in QR Wallet requires **biometric authentication**:
+Every critical action in [QR] wallet requires **biometric authentication**:
 
 - **Face ID** (iPhone)
 - **Touch ID** (iPhone, iPad)
@@ -43,7 +43,7 @@ A PIN or password can be observed, written down, or brute-forced. Biometrics off
 
 ## Important: Signing Order
 
-In QR Wallet, biometrics is requested **before** transaction preparation, not after. This is intentional — to prevent Paymaster signature expiry.
+In [QR] wallet, biometrics is requested **before** transaction preparation, not after. This is intentional — to prevent Paymaster signature expiry.
 
 ```
 1. User enters transaction details
@@ -64,4 +64,4 @@ On devices without biometrics, the device PIN is used as fallback.
 
 **Are my biometric data stored?**
 
-No. QR Wallet does not store biometric data. Authentication is handled by the OS (iOS/Android) through a secure hardware module.
+No. [QR] wallet does not store biometric data. Authentication is handled by the OS (iOS/Android) through a secure hardware module.

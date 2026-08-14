@@ -1,6 +1,6 @@
 # Integration Overview
 
-> Join the QR Wallet ecosystem — payments, DApps, tokens.
+> Join the [QR] wallet ecosystem — payments, DApps, tokens.
 
 ---
 
@@ -23,7 +23,7 @@ Accept crypto payments via QR codes:
 Add your DApp to the Discovery catalog:
 
 - Display in category (DeFi, NFT, Gaming, etc.)
-- Access to QR Wallet's user base
+- Access to [QR] wallet's user base
 - Seamless wallet connection
 
 **For:** DeFi protocols, NFT marketplaces, games, bridges.
@@ -32,7 +32,7 @@ Add your DApp to the Discovery catalog:
 
 ### 3. Partnership Quests
 
-Create quests for QR Wallet users:
+Create quests for [QR] wallet users:
 
 - Users complete tasks in your service
 - Earn points for completion
@@ -42,7 +42,7 @@ Create quests for QR Wallet users:
 
 ### 4. Token Integration
 
-Add your token to QR Wallet's Token Registry:
+Add your token to [QR] wallet's Token Registry:
 
 - Display in the asset list
 - Swap support
@@ -52,7 +52,7 @@ Add your token to QR Wallet's Token Registry:
 
 ---
 
-## Why QR Wallet?
+## Why [QR] wallet?
 
 | Advantage | Description |
 |-----------|------------|

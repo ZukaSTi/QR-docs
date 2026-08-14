@@ -6,7 +6,7 @@
 
 ## How It Works
 
-Every day you can earn points for using QR Wallet. Points are awarded for various actions — from simply opening the app to completing swaps and staking.
+Every day you can earn points for using [QR] wallet. Points are awarded for various actions — from simply opening the app to completing swaps and staking.
 
 ---
 
@@ -17,8 +17,8 @@ Every user has a **daily limit** that depends on their tier and bonuses:
 | Source | Points/day |
 |--------|:----------:|
 | **Base limit** | 1,000 – 3,500 (by tier) |
-| **Hunter NFT** | +500 |
-| **OG NFT** | +500 |
+| **Hunter NFT** (equipped) | +500 |
+| **OG NFT** (equipped) | +500 |
 | **Staking ≥ $500** | +500 |
 | **Maximum** | **5,000** |
 
@@ -40,7 +40,20 @@ Base limits by tier: [Premium Tiers](premium-tiers.md)
 Primary method — completing daily and one-time quests. More: [Quests & Leagues](quests-and-leagues.md)
 
 ### 2. Auto-Points
-On 3 Months (250), 6 Months (500), Black Year (1,000), and Ultra (3,500), points are credited **automatically** every day.
+Credited **automatically** every day (NFT bonuses only while equipped):
+
+| Source | Auto-points/day |
+|--------|:---------------:|
+| 3 Months | 250 |
+| 6 Months | 500 |
+| Black Month | 750 |
+| Black Year | 1,000 |
+| Ultra | 3,500 |
+| **Hunter NFT** (equipped) | 500 |
+| **OG NFT** (equipped) | 500 |
+| Staking ≥ $500 | 500 |
+
+OG purchase requires Black Year or Ultra. After Premium expires, an equipped OG NFT still credits 500 auto-points/day. Details: [Premium Tiers](premium-tiers.md), [NFT Bonuses](nft-bonuses.md).
 
 ### 3. Check-in
 Daily app open (5-day cycle) with growing bonuses.

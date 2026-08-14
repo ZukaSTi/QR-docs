@@ -14,7 +14,7 @@ This page describes what the feature is for, so you know what to expect.
 
 ## What It Will Do
 
-A **virtual card** lets you spend assets from QR Wallet anywhere cards are accepted online (and, depending on rollout, in-app wallets).
+A **virtual card** lets you spend assets from [QR] wallet anywhere cards are accepted online (and, depending on rollout, in-app wallets).
 
 Typical flow once live:
 
@@ -23,7 +23,7 @@ Typical flow once live:
 3. Issue a virtual card
 4. Use the card details in online checkout or add them to your phone wallet when that option is enabled
 
-QR Wallet does not hold your keys. Card issuing still requires identity checks under card-network rules.
+[QR] wallet does not hold your keys. Card issuing still requires identity checks under card-network rules.
 
 ---
 

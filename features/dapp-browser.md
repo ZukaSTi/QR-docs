@@ -6,7 +6,7 @@
 
 ## What Is It?
 
-The DApp Browser is a built-in web browser that lets you use **decentralized applications** directly from QR Wallet. Your wallet connects automatically — like MetaMask, but without extensions.
+The DApp Browser is a built-in web browser that lets you use **decentralized applications** directly from [QR] wallet. Your wallet connects automatically — like MetaMask, but without extensions.
 
 ---
 

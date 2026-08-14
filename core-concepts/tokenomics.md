@@ -129,7 +129,7 @@ Your daily SMRT = (Your Points / Total Points of All Users) × 2,500,000
 | Action | Impact |
 |--------|--------|
 | Higher Premium tier | Higher daily points limit (up to 3,500) |
-| Hunter / OG NFT | +500 points/day each |
+| Hunter / OG NFT (equipped) | +500 daily limit and +500 auto-points each |
 | Staking ≥ $500 | +500 points/day |
 | Complete daily quests | Up to 375 points/day |
 | League bonus | Up to +14% on all earnings |

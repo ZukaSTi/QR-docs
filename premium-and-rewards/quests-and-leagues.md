@@ -43,7 +43,7 @@ Long-term achievements with high rewards:
 
 ### 4. Partnership
 
-Special quests from QR Wallet partners — appear periodically with unique rewards.
+Special quests from [QR] wallet partners — appear periodically with unique rewards.
 
 ---
 
@@ -63,7 +63,7 @@ Locked → Available → In Progress → Completed → Collected
 
 ## 8 Leagues
 
-Leagues are your rank in the QR Wallet ecosystem. More points = higher league:
+Leagues are your rank in the [QR] wallet ecosystem. More points = higher league:
 
 | # | League | Points Required | Points Bonus |
 |---|--------|:---------------:|:------------:|

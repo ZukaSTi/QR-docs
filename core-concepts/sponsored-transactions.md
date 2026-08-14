@@ -1,6 +1,6 @@
 # Sponsored Transactions
 
-> QR Wallet pays network fees for you. Free transactions are real.
+> [QR] wallet pays network fees for you. Free transactions are real.
 
 ---
 
@@ -8,10 +8,10 @@
 
 Every blockchain transaction requires "gas" — a network fee. In most wallets, users pay gas themselves in native tokens (ETH, POL, BNB).
 
-QR Wallet does it differently. When you send a transaction:
+[QR] wallet does it differently. When you send a transaction:
 
 1. The app checks: do you have remaining sponsored TX?
-2. If **yes** → QR Wallet pays the gas via **Paymaster**
+2. If **yes** → [QR] wallet pays the gas via **Paymaster**
 3. If **no** → you're offered Smart Pay, stablecoin (gasless), or native token payment
 
 > **Paymaster** is a smart contract that signs permission to pay gas on behalf of the user. The blockchain charges the Paymaster, not your wallet.

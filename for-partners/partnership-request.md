@@ -1,6 +1,6 @@
 # Partnership Request
 
-> Become part of the QR Wallet ecosystem.
+> Become part of the [QR] wallet ecosystem.
 
 ---
 
@@ -10,7 +10,7 @@
 |------|------------|
 | **Payment Integration** | Accept crypto payments via QR codes |
 | **DApp Listing** | Feature in the Discovery catalog |
-| **Partnership Quests** | Quests for QR Wallet users |
+| **Partnership Quests** | Quests for [QR] wallet users |
 | **Ambassador Program** | Invite-only growth partners — [tiers](ambassador-program.md) |
 | **Token Integration** | Add your token to the registry |
 | **Strategic Partnership** | Joint campaigns and integrations |

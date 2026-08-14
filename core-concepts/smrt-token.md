@@ -1,12 +1,12 @@
 # $SMRT Token
 
-> The native token of the QR Wallet ecosystem — earn it, use it, stake it.
+> The native token of the [QR] wallet ecosystem — earn it, use it, stake it.
 
 ---
 
 ## What Is $SMRT?
 
-**$SMRT** (Smart Token) is the native utility token of QR Wallet. It powers the reward system, enables gas-free transactions, and aligns user incentives with the growth of the ecosystem.
+**$SMRT** (Smart Token) is the native utility token of [QR] wallet. It powers the reward system, enables gas-free transactions, and aligns user incentives with the growth of the ecosystem.
 
 | Parameter | Value |
 |-----------|-------|
@@ -23,7 +23,7 @@
 
 ## Current Status: Beta ($SMRTS)
 
-During the beta testing phase, QR Wallet uses a **synthetic token $SMRTS** (Smart Synthetic Token). It is fully equivalent to the future $SMRT in terms of functionality and mechanics:
+During the beta testing phase, [QR] wallet uses a **synthetic token $SMRTS** (Smart Synthetic Token). It is fully equivalent to the future $SMRT in terms of functionality and mechanics:
 
 - Same total supply (10 billion)
 - Same distribution logic (Use2Earn, staking, etc.)
@@ -144,7 +144,7 @@ No problem. Claims are cumulative — your entire unclaimed balance is available
 
 **Is $SMRT on multiple chains?**
 
-Yes. $SMRT will be deployed across all EVM networks supported by QR Wallet. Initially on Base, Arbitrum, and BNB Chain — with other networks added over time.
+Yes. $SMRT will be deployed across all EVM networks supported by [QR] wallet. Initially on Base, Arbitrum, and BNB Chain — with other networks added over time.
 
 **What determines how much $SMRT I earn?**
 

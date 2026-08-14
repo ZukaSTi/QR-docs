@@ -6,7 +6,7 @@
 
 ## Custom EVM Networks
 
-QR Wallet includes a curated list of networks. If you need another EVM chain (a new L2, an app-chain, a private consortium chain), you can **add it by RPC**.
+[QR] wallet includes a curated list of networks. If you need another EVM chain (a new L2, an app-chain, a private consortium chain), you can **add it by RPC**.
 
 1. Open network settings → **Add network**
 2. Enter **RPC URL**, **chain ID**, **name**, and **native token** symbol/decimals

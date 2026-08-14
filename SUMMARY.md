@@ -2,7 +2,7 @@
 
 ## Welcome
 
-* [About QR Wallet](README.md)
+* [About [QR] wallet](README.md)
 
 ## Core Concepts
 
