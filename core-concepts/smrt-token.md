@@ -32,7 +32,37 @@ During the beta testing phase, [QR] wallet uses a **synthetic token $SMRTS** (Sm
 
 > **Important:** $SMRTS is a temporary beta token. It will lose its value at the moment of the official $SMRT launch. The points system will be reset and $SMRT distribution will start from scratch. $SMRTS tokens can be burned after the transition.
 
-**Estimated official launch (TGE): Q4 2026** (preliminary date, subject to change).
+**Official launch (TGE):** the exact date is not announced yet.
+
+---
+
+## Claiming $SMRTS (Beta)
+
+$SMRTS is allocated daily at **00:05 UTC**, based on the points you earned. Open **Rewards → SMRTS Claim** to claim it. Claiming is available in the **Android** app.
+
+**Checklist before you claim:**
+
+- [ ] Claims are on the **Base** network
+- [ ] You have at least **100 $SMRTS** available
+- [ ] Your wallet holds at least **$5** in other assets ($SMRTS excluded) — or you have **Premium**
+- [ ] You have a little **ETH on Base** for gas (~$0.001–0.01)
+- [ ] You haven't claimed in the last **24 hours**
+- [ ] You haven't changed your **default address** in the last 24 hours
+- [ ] Your app is updated to the latest version
+
+**Messages and what they mean:**
+
+| Message | What to do |
+|---|---|
+| Your balance is below $5 | Keep $5+ in other assets, or activate Premium |
+| Minimum 100 SMRTs required | Wait until more $SMRTS accrue |
+| One claim per 24 hours | Try again later |
+| Claim unavailable for 24h after changing default address | Wait 24 hours after the change |
+| Previous claim is still being processed | Wait for the previous claim to finish |
+| Failed to prepare claim | Try again later |
+| Restricted / not eligible | See below |
+
+**Restricted from claiming.** Accounts flagged by our anti-abuse rules can't claim rewards. This affects **only reward claims** — your wallet, funds and all other features work as usual. If you believe it's a mistake, create a [support ticket](../welcome/support.md) and ask for a claim review.
 
 ---
 
@@ -57,10 +87,10 @@ $SMRT is distributed daily to active users through the **Use2Earn** model:
 
 **Step by step:**
 
-1. **Earn points** — complete quests, swap, send, stake, use the app daily
+1. **Earn points** — complete quests, pay with QR or card, swap, stake, use the app daily
 2. **Points determine your share** — the more points you earn, the bigger your slice of the daily pool
 3. **$SMRT are distributed** — every day, 2.5 million tokens are split among all active users proportionally
-4. **Claim on-chain** — tokens are available for claiming via a Merkle-proof smart contract
+4. **Claim on-chain** — during beta, claim $SMRTS on Base (see [Claiming $SMRTS](#claiming-smrts-beta)). The $SMRT claim contract will be published at TGE
 
 > Distribution runs for **2,000 days** from launch. Total Use2Earn allocation: **5 billion SMRT** (50% of supply).
 
@@ -70,10 +100,9 @@ $SMRT is distributed daily to active users through the **Use2Earn** model:
 
 ### 1. Smart Pay — Pay Gas with $SMRT
 
-Instead of paying gas fees in native tokens (ETH, POL, BNB), you can pay with **$SMRT** (Smart Pay):
+Instead of paying gas fees in native tokens (ETH, POL, BNB), Premium users can pay with **$SMRTS** (Smart Pay):
 
-- Live today on **BNB Chain, Avalanche, and Dash**
-- More networks are added over time
+- Available on Base, Arbitrum, BNB Chain, Ethereum, Polygon, Optimism, World Chain, ApeChain and Solana
 - Fee is auto-calculated at current exchange rate
 - Does **not** consume your sponsored TX quota
 
@@ -81,11 +110,11 @@ Instead of paying gas fees in native tokens (ETH, POL, BNB), you can pay with **
 
 ### 2. Staking
 
-Stake $SMRT to earn additional rewards from the staking pool (25% of total supply). Staking $500+ in USD value also gives a **+500 daily points bonus**.
+**Planned after TGE:** stake $SMRT to earn additional rewards from the staking pool (25% of total supply). Today, staking any supported assets worth $500+ gives a **+500 daily points bonus** — see [Staking](../features/staking.md).
 
 ### 3. Points Boost
 
-Higher $SMRT staking balance → higher daily points limit → more $SMRT earned. A self-reinforcing cycle for active users.
+**Planned after TGE:** higher $SMRT staking balance → higher daily points limit → more $SMRT earned.
 
 ### 4. Premium Benefits
 
@@ -95,9 +124,9 @@ $SMRT integrates with the premium tier system — active users who earn more $SM
 
 ## Distribution Mechanics
 
-### On-Chain Contract
+### On-Chain Contract (after TGE)
 
-$SMRT distribution uses an audited smart contract with **Merkle tree-based claiming**:
+$SMRT distribution after TGE will use an audited smart contract with **Merkle tree-based claiming**:
 
 ```
 ┌──────────────┐     ┌──────────────────┐     ┌──────────────┐
@@ -128,11 +157,11 @@ $SMRT distribution uses an audited smart contract with **Merkle tree-based claim
 
 **When does distribution start?**
 
-Estimated TGE: **Q4 2026** (preliminary, subject to change). From that date, 2.5 million $SMRT are distributed daily.
+The exact TGE date is not announced yet. From that date, 2.5 million $SMRT are distributed daily.
 
 **How do I claim my $SMRT?**
 
-Tokens appear in the app as "pending" balance. You can claim them on-chain at any time — no rush, they accumulate.
+After TGE, $SMRT accumulates and can be claimed at any time. During beta, $SMRTS is claimed as described in [Claiming $SMRTS](#claiming-smrts-beta).
 
 **Can I trade $SMRT?**
 

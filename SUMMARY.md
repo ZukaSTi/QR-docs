@@ -3,6 +3,8 @@
 ## Welcome
 
 * [About [QR] wallet](README.md)
+* [Quickstart](welcome/quickstart.md)
+* [Support](welcome/support.md)
 
 ## Core Concepts
 
@@ -22,10 +24,10 @@
 * [Swap & Bridge](features/swap-and-bridge.md)
 * [Staking](features/staking.md)
 * [Borrowing](features/borrowing.md)
-* [Perpetual Trading](features/perpetual-trading.md)
 * [DApp Browser](features/dapp-browser.md)
-* [Buy & Sell Crypto](features/buy-crypto.md)
+* [Buy Crypto](features/buy-crypto.md)
 * [Virtual Cards](features/cards.md)
+* [Identity Verification (KYC)](features/identity-verification.md)
 * [Cashback](features/cashback.md)
 * [Custom Networks](features/custom-networks.md)
 * [Wallet Watcher](features/wallet-watcher.md)
@@ -40,6 +42,7 @@
 
 ## Supported Networks
 
+* [Network Feature Matrix](supported-networks/feature-matrix.md)
 * [EVM Chains](supported-networks/evm-chains.md)
 * [Solana](supported-networks/solana.md)
 * [Tron](supported-networks/tron.md)

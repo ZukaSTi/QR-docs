@@ -53,7 +53,9 @@
 - Backend session (JWT tokens)
 - Cached balances, transaction history, token prices
 - DApp sessions
-- DeFi positions (staking, borrowing, trading)
+- Cached view of your DeFi positions (staking, borrowing)
+
+> Logout only clears data on this device. It does **not** close, withdraw or change anything on the blockchain — your staking, loans and balances stay where they are and appear again after you log back in.
 
 **After logout you will see** the Login screen with your wallet address. You can:
 1. **Authenticate with biometrics** — returns you to the same account with all wallet groups

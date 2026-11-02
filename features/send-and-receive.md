@@ -33,10 +33,12 @@ On Smart Account networks, confirmation is typically 2–7 seconds on L2. Bitcoi
 ### How to Receive Tokens
 
 1. Open the **Receive** screen
-2. Pick the **network** if needed (EVM vs Bitcoin vs Dash vs Solana vs Tron)
+2. Pick the **network** if needed (EVM vs Bitcoin vs Dash vs Solana)
 3. Show the sender your **QR code** or copy your **address**
 
 Networks that support [QR Payments](qr-payments.md) may show a QR Pay badge.
+
+> **Tron:** deposits to Tron are temporarily unavailable. Don't send TRX or TRC-20 tokens to a [QR] wallet Tron address.
 
 ### Addresses by Network Type
 
@@ -45,7 +47,7 @@ Networks that support [QR Payments](qr-payments.md) may show a QR Pay badge.
 | EVM (Smart Account) | SA address | `0x...` (same across SA networks) |
 | Avalanche / Taiko | EOA | `0x...` |
 | Solana | Solana wallet | Base58 |
-| Tron | Tron wallet | `T...` |
+| Tron | Tron wallet (deposits temporarily unavailable) | `T...` |
 | Bitcoin | Bitcoin wallet | Native BTC address |
 | Dash | Dash wallet | Starts with `X` |
 
@@ -68,3 +70,23 @@ All transactions are saved in history:
 - **Details** — amount, recipient, network, transaction hash
 - **Explorer link** — open block explorer for each transaction
 - **Filtering** — by network, operation type, date
+
+---
+
+## My Transfer Didn't Arrive
+
+{% hint style="danger" %}
+Do **not** delete the wallet, reinstall the app, or share your seed phrase as a first step. Your funds are on the blockchain, not in the app — and anyone asking for your seed phrase is a scammer.
+{% endhint %}
+
+Check in this order:
+
+1. **Network.** The sender must use the same network you copied the address from. For example, USDT sent on BNB Chain to your address arrives on BNB Chain — not on Base. Switch the network in the wallet to see it.
+2. **Address.** In Pro mode you can have a Smart Account and a regular (EOA) address. Make sure you are looking at the address the funds were sent to. See [Smart Accounts](../core-concepts/smart-accounts.md#which-address-is-which).
+3. **Token.** If you received a token that isn't shown, add it by its contract address.
+4. **Explorer.** Open the transaction hash in the network explorer. If it shows **Success** and the recipient is your address, the funds are yours — pull down to refresh the balance.
+5. **Not in the explorer?** The transfer was never sent. Ask the sender or the exchange for the transaction hash.
+
+**Sending to an exchange:** check the exchange's **minimum deposit** and whether it requires a **memo / tag**. A deposit below the minimum or without the required memo can only be recovered by the exchange's support.
+
+**Still missing?** Create a [support ticket](../welcome/support.md) and attach the transaction hash.

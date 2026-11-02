@@ -11,6 +11,7 @@ Premium is grouped into **Premium**, **Premium Black**, and **Premium Ultra**.
 | | Free | 1 Month | 3 Months | 6 Months | Black Month | Black Year | Ultra |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **Category** | — | Premium | Premium | Premium | Black | Black | Ultra |
+| **Price** | Free | $3.50 | $9.50 | $17 | $19 | $145 | $950 |
 | **Duration** | — | 30 days | 90 days | 180 days | 30 days | 365 days | Forever |
 | **Daily points limit** | 1,000 | 1,250 | 1,350 | 1,500 | 1,750 | 2,500 | 3,500 |
 | **Auto-points** | 0 | 0 | 250 | 500 | 750 | 1,000 | 3,500 |
@@ -19,6 +20,8 @@ Premium is grouped into **Premium**, **Premium Black**, and **Premium Ultra**.
 | **Actions required?** | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 Free users also receive **1 welcome sponsored TX** (static — it does not reset daily). See [Sponsored Transactions](../core-concepts/sponsored-transactions.md).
+
+Prices are in USD for payment with crypto. On iOS, the App Store price is shown in the app. Premium also unlocks [Smart Pay](../core-concepts/gas-and-fees.md), sponsored DApp transactions and your username referral code.
 
 ---
 
@@ -30,7 +33,7 @@ Base tier for all users:
 
 - 1,000 points per day (through quests and actions)
 - No daily sponsored transactions (plus 1 welcome static TX)
-- No Smart Account activations
+- Smart Account activation after a deposit (see [Smart Accounts](../core-concepts/smart-accounts.md))
 
 ### Premium — 1 / 3 / 6 Months
 
@@ -89,7 +92,7 @@ Hunter and OG auto-points require the NFT to be **equipped**. Buying OG still re
 3. Pay with **crypto** (USDC, USDT) or via the **App Store** on iOS
 4. Tier activates instantly
 
-> Buying Premium with crypto may consume 1 sponsored TX if one is available.
+> Buying Premium with crypto doesn't use your sponsored TX.
 
 ---
 

@@ -10,7 +10,7 @@ Eligible **QR payments** can earn cashback in the ecosystem token (**$SMRTS** du
 
 1. Complete a QR payment
 2. Cashback is calculated as a **percentage of the payment**
-3. Tokens are sent to your **default wallet address**
+3. Tokens are sent to your **default wallet address** on Base
 
 If no default address is set, cashback is skipped until you set one in Profile.
 
@@ -27,7 +27,17 @@ Your rate depends on Premium tier and NFTs:
 | Premium Ultra | 10% |
 | OG NFT | 10% |
 
-The app shows the live rate on the payment screen (`Your Cashback`). Custom rates may apply for partners in the [Ambassador Program](../for-partners/ambassador-program.md).
+The highest rate that applies to you is used — rates don't add up. The app shows the live rate on the payment screen (`Your Cashback`). Partners in the [Ambassador Program](../for-partners/ambassador-program.md) get a higher rate.
+
+---
+
+## Limits
+
+| | |
+|---|---|
+| Maximum cashback per payment | $50 |
+
+Very small payments, and payments that fail or are refunded, don't earn cashback. Cashback is also subject to our anti-abuse rules.
 
 ---
 
@@ -45,7 +55,7 @@ Open cashback history in the app to see:
 
 **Does every QR payment earn cashback?**
 
-Most completed payments do. Very small amounts and failed/refunded payments may not.
+Most completed payments do. Very small, failed and refunded payments don't.
 
 **Is cashback the same as referral cashback?**
 

@@ -87,18 +87,44 @@ Restore the wallet on a new device using your seed phrase. All funds intact.
 
 Your funds are on the blockchain — nobody can take them away. Recovery depends on where your funds are:
 
-**EOA funds** — import your seed phrase into any EVM wallet (MetaMask, Rainbow, etc.). You'll see your EOA balance immediately.
+**The easiest way:** install [QR] wallet on any device, choose *Import wallet* and enter your seed phrase. Your EOA and Smart Account addresses come back exactly as before.
 
-**Smart Account funds** (including staked positions in Aave, Compound, Lido, etc.) — your EOA key is the **sole owner** of the Smart Account. SA address is computed deterministically from your EOA using the open CREATE2 standard. To access SA funds:
+**EOA funds** — import your seed phrase into any EVM wallet (MetaMask, Rainbow, etc.). Use the same account index you used in [QR] wallet — the first account is index 0 (derivation path `m/44'/60'/0'/0/<index>`).
 
-1. Import your seed phrase into any **ERC-4337 compatible wallet**
-2. The wallet will derive your EOA → compute your SA address → give you full access
-3. You can withdraw staked positions, transfer tokens — everything, just like in [QR] wallet
+**Smart Account funds** (including staked positions in Aave and Compound) — your EOA key is the **sole owner** of the Smart Account. The SA address is computed deterministically from your EOA (CREATE2) with these parameters:
 
-> **Why can't I see SA funds in MetaMask?** MetaMask only shows EOA balances. It does not support Smart Accounts (ERC-4337). This doesn't mean your funds are lost — it means you need a wallet that supports this standard.
+| Parameter | Value |
+|---|---|
+| Account type | Alchemy LightAccount v1.1.0 |
+| Factory | `0x00004EC70002a32400f8ae005A26081065620D20` |
+| EntryPoint | v0.6 — `0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789` |
+| Salt | `0` |
+| Owner | Your EOA address |
 
-> **Important:** ERC-4337 is an open Ethereum standard, not proprietary to [QR] wallet. Multiple independent wallets and tools support it. Your Smart Account is a standard on-chain contract — it will exist as long as the blockchain exists.
+A tool or wallet that supports Alchemy LightAccount with these parameters computes the same Smart Account address and can operate it with your EOA key.
+
+> **Why can't I see SA funds in MetaMask?** MetaMask shows EOA balances only. Your funds are not lost — the Smart Account is a separate address owned by your EOA.
+
+> **Important:** "ERC-4337 support" alone is not enough — a Smart Account address depends on the account type, factory and salt. Use the parameters above. Your Smart Account is an on-chain contract — it exists as long as the blockchain exists.
 
 **Solana funds** — import your seed phrase into any Solana wallet (Phantom, Solflare, etc.).
 
 **Tron funds** — import your seed phrase into any Tron wallet (TronLink, etc.).
+
+---
+
+## What Self-Custody Does and Doesn't Mean
+
+[QR] wallet never holds your keys. That protects you from us — but some things are outside any wallet's control:
+
+| Layer | Who controls it |
+|---|---|
+| **Keys** | Only you — stored on your device |
+| **Smart Account** | A contract that only your key can operate |
+| **Tokens** | The token issuer. Some stablecoins (for example USDT and USDC) can be frozen by their issuer |
+| **QR payments, cards, buying crypto** | Payment partners, who may delay or decline a payment under their rules |
+| **App data on the device** | A cache. Logout removes it; everything is restored from the blockchain |
+
+**Be careful with signatures:**
+- Approving a token for a DApp lets that DApp spend the token. Only sign on sites you trust.
+- Unknown tokens that suddenly appear in your wallet are often scams. Don't interact with them or visit links in their names.

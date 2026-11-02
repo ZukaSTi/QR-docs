@@ -39,25 +39,26 @@ User → Transaction → Fee paid in $SMRT (or supported tokens) → Done
 ```
 
 - Cover network fees **without holding the native gas token**
-- Live today on **BNB Chain, Avalanche, and Dash**
-- The list of networks **keeps growing**
+- Pay with **$SMRTS, AVAX or APE**
+- Available with **Premium** on Base, Arbitrum, BNB Chain, Ethereum, Polygon, Optimism, World Chain, ApeChain and Solana
 - Uses a **separate quota** from sponsored TX — Smart Pay does not consume your free TX
 
-**When used:** When you want to pay fees in $SMRT (or another supported token) instead of ETH/BNB/DASH.
+**When used:** When you choose to pay fees in $SMRTS (or another supported token) instead of the native token.
 
 ---
 
-## Mode 3: Gasless (Pay with Stablecoins)
+## Mode 3: Gasless (Pay with Tokens)
 
 ```
-User → Transaction → Paymaster pays gas → Deducts USDC/USDT from balance
+User → Transaction → Paymaster pays gas → Deducts a token from balance
 ```
 
-- Gas is paid in **USDC or USDT** instead of native tokens
+- Gas is paid in a **supported token** (such as USDC or USDT) instead of the native token
 - Amount is automatically deducted from Smart Account balance
-- Convenient when you don't have ETH/POL/BNB but have stablecoins
+- Available on Ethereum, Base, Arbitrum, Polygon, Optimism, BNB Chain and World Chain
+- Works for supported tokens from the token list — not for native tokens or custom tokens you added yourself
 
-**When used:** If sponsored TX are exhausted and you have stablecoins on a Smart Account network.
+**When used:** If sponsored TX are exhausted and you hold a supported token on one of these networks.
 
 ---
 
@@ -70,7 +71,7 @@ User → Transaction → User pays gas in the native token
 - Classic method: gas paid in **ETH, POL, BNB, AVAX, SOL, TRX, BTC, DASH**, depending on the network
 - Gas cost shown before confirmation
 - Always available as a fallback
-- The only mode on networks without Smart Account sponsorship (Bitcoin, Dash, Avalanche, Taiko, Tron energy)
+- The only mode on networks without Smart Account sponsorship (Bitcoin, Dash, Avalanche, Taiko, Tron)
 
 **When used:** If no sponsored TX and Smart Pay / gasless is unavailable.
 
@@ -83,10 +84,10 @@ The app automatically selects the **optimal** payment mode:
 ```
 1. Sponsored  →  free TX available?       → YES → use it
                                           → NO  ↓
-2. Smart Pay  →  supported on this network
+2. Smart Pay  →  Premium, supported network
                  and you choose it?       → YES → use it
                                           → NO  ↓
-3. Gasless    →  stablecoins available?   → YES → use it
+3. Gasless    →  supported token?         → YES → use it
                                           → NO  ↓
 4. Self-pay   →  native token available?  → YES → use it
                                           → NO  → insufficient funds
@@ -110,10 +111,29 @@ Users can always switch modes manually in the send interface.
 | Solana | ~$0.001 |
 | Dash | low (native fee) |
 | Bitcoin | varies with network congestion |
-| Tron | ~$1–3 (energy) |
+| Tron | paid in TRX (energy) |
 | Ethereum | $1–10+ |
 
 > On L2 networks, gas costs fractions of a cent — even in self-pay mode it's practically free.
+
+---
+
+## Four Different Costs
+
+When you see a cost in the app, it is one of these:
+
+| Cost | Paid to | When |
+|---|---|---|
+| **Network gas** | The blockchain | Every on-chain transaction |
+| **Service fee** | Payment or card partner | QR payments, card top-ups, buying crypto — shown before you confirm |
+| **Slippage** | Nobody — price movement | Swaps (default tolerance 0.5%) |
+| **Exchange rate** | Built into the quote | Crypto → local currency |
+
+## Same Name, Different Token
+
+- **ETH on Base and ETH on Arbitrum are separate balances.** Moving between them is a bridge, not a transfer.
+- **ETH ≠ WETH, SOL ≠ wrapped SOL.** Wrapped tokens can't pay gas.
+- To pay gas yourself you need the **native token of that exact network**.
 
 ---
 
@@ -125,16 +145,16 @@ If your Premium tier provides a daily limit. On Ultra — up to 10 free TX per d
 
 **Does Smart Pay work everywhere?**
 
-Not yet. It currently works on **BNB Chain, Avalanche, and Dash**. More networks are added over time.
+No. It works with Premium only on Base, Arbitrum, BNB Chain, Ethereum, Polygon, Optimism, World Chain, ApeChain and Solana.
 
-**Why does gasless take USDC and not any token?**
+**Why does gasless not take every token?**
 
-Paymaster only accepts stablecoins (USDC, USDT) as payment — they have a stable exchange rate, which simplifies fee calculation.
+The paymaster accepts only tokens from its supported list — they have reliable prices, which makes the fee calculation safe.
 
 **Does gas on Tron work differently?**
 
-Yes. Tron uses an "energy" and "bandwidth" system instead of classic gas. USDT transfers on Tron require energy, which can be obtained by staking TRX.
+Yes. Tron uses an "energy" and "bandwidth" system instead of classic gas. USDT transfers on Tron require energy, which can be obtained by staking TRX. Deposits to Tron are temporarily unavailable — see [Tron](../supported-networks/tron.md).
 
 **Do Bitcoin and Dash use Smart Accounts?**
 
-No. They use classic addresses. You pay the native network fee (or Smart Pay on Dash).
+No. They use classic addresses. You pay the native network fee.
