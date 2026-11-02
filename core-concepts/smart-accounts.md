@@ -60,48 +60,62 @@ This is possible thanks to **CREATE2** technology — the address is mathematica
 
 ---
 
+## Which Address Is Which
+
+| Term | What it is |
+|---|---|
+| **Wallet group** | Everything created from one secret phrase |
+| **EOA (regular address)** | An address derived from your secret phrase. Pays its own gas |
+| **Smart Account (SA)** | A contract wallet owned by your EOA. Can use sponsored gas, gasless and Smart Pay |
+
+**Lite mode** (the default for new users) uses your Smart Account only — one address, nothing to choose. **Pro mode** (switch it in Profile → Lite / Pro) shows both addresses, lets you switch between them and hold several wallet groups.
+
+| Action | Paid from | Gas |
+|---|---|---|
+| Send / swap from the Smart Account | Smart Account | Sponsored, gasless, Smart Pay or self-pay |
+| Send / swap from the EOA | EOA | Self-pay in the native token |
+
+{% hint style="warning" %}
+Moving funds between your EOA and your Smart Account is a **real blockchain transfer**, not a display switch. Both addresses are yours — but funds sent to one don't appear on the other.
+{% endhint %}
+
+---
+
 ## Activating a Smart Account
 
 Before sending transactions via SA, you need to **activate** it on each network where you want to use it. This is a one-time action — activate once, it works forever.
 
-### Three Activation Methods
+### Activation by Network
 
-| Method | Who Pays | Where |
-|--------|----------|-------|
-| **Sponsored** | [QR] wallet (free) | All L2 networks |
-| **Self-pay** | User (native token) | Ethereum |
-| **Gasless** | User (USDC/USDT) | When sponsored is unavailable |
+Activation is paid by [QR] wallet (sponsored). You never need a separate transfer to activate.
 
-### Activation Cost
-
-| Network | Method | Approx. Cost |
-|---------|--------|:------------:|
-| Base | Sponsored | ~$0.02 (free for you) |
-| Polygon | Sponsored | ~$0.01 (free for you) |
-| Arbitrum | Sponsored | ~$0.03 (free for you) |
-| BNB Chain | Sponsored | ~$0.05 (free for you) |
-| Ethereum | Sponsored | ~$3.00 ([QR] wallet covers when sponsored TX are available) |
-
-> On L2 networks, activation costs pennies and [QR] wallet covers it. Avalanche and Taiko do not use Smart Accounts — they use a classic EOA. Bitcoin and Dash are separate non-EVM addresses.
+| Network | Activation | Auto-activates after a deposit of |
+|---------|-----------|:---------------------------------:|
+| Base, Arbitrum, Optimism, BNB Chain, World Chain, HyperEVM, Monad, Plasma, ApeChain, Stable | Sponsored | $5 or more |
+| Polygon | Sponsored | $1 or more |
+| Ethereum | Sponsored | $10 or more |
+| Avalanche, Taiko, custom networks | No Smart Account — classic EOA | — |
+| Solana, Bitcoin, Dash, Tron | Separate non-EVM addresses | — |
 
 ### Auto-Activation
 
-You don't even need to activate SA manually! When someone **sends funds** to your SA address:
+You don't need to activate SA manually. When someone **sends funds** to your SA address:
 
 1. The app detects the incoming transfer
-2. If the amount is ≥ $5 (≥ $1 on Polygon) — SA activates automatically
+2. If the amount reaches the threshold in the table above — SA activates automatically
 3. Everything happens in the background, no action required
-4. Works on all L2 networks with sponsored activation support
+
+Free users activate through a deposit. Premium tiers also include activations that don't need a deposit (see below).
 
 ---
 
 ## Activation Limits
 
-The number of networks where you can activate SA depends on your tier:
+Premium tiers include activations that don't need a deposit:
 
 | Tier | Activations |
 |------|:-----------:|
-| Free | 0 |
+| Free | 0 (activation after a deposit) |
 | Premium 1 Month | 1 network |
 | Premium 3 Months | 1 network |
 | Premium 6 Months | 2 networks |
@@ -117,7 +131,7 @@ More on tiers: [Premium Tiers](../premium-and-rewards/premium-tiers.md)
 
 Smart Account in [QR] wallet is built on the **ERC-4337 (Account Abstraction)** standard — an open Ethereum standard for programmable wallets.
 
-We use audited **Alchemy LightAccount** contracts — a proven and secure solution on Smart Account EVM networks (not Bitcoin, Dash, Avalanche, or Taiko).
+We use audited **Alchemy LightAccount v1.1.0** contracts with EntryPoint v0.6 — a proven and secure solution on Smart Account EVM networks (not Bitcoin, Dash, Avalanche, or Taiko). Recovery details: [Key Management](../security/key-management.md).
 
 Deep dive: [ERC-4337 Deep Dive](../under-the-hood/erc-4337.md)
 

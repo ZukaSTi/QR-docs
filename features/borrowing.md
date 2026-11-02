@@ -2,6 +2,10 @@
 
 > Get liquidity without selling your tokens.
 
+{% hint style="info" %}
+Borrowing is available in the **Android** app, in Pro mode.
+{% endhint %}
+
 ---
 
 ## What Is DeFi Borrowing?

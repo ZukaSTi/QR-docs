@@ -111,7 +111,7 @@ The core mechanism: **use the app → earn points → receive $SMRT**.
 | Daily pool | 2,500,000 SMRT |
 | Duration | 2,000 days |
 | Total | 5,000,000,000 SMRT (50%) |
-| Estimated start | Q4 2026 (preliminary, subject to change) |
+| Start | At TGE — exact date not announced yet |
 
 ### How Your Share Is Calculated
 
@@ -131,14 +131,33 @@ Your daily SMRT = (Your Points / Total Points of All Users) × 2,500,000
 | Higher Premium tier | Higher daily points limit (up to 3,500) |
 | Hunter / OG NFT (equipped) | +500 daily limit and +500 auto-points each |
 | Staking ≥ $500 | +500 points/day |
-| Complete daily quests | Up to 375 points/day |
-| League bonus | Up to +14% on all earnings |
+| Complete daily quests | Points for every completed quest — see [Quests & Leagues](../premium-and-rewards/quests-and-leagues.md) |
 
 More: [Points System](../premium-and-rewards/points-system.md) · [$SMRT Token](smrt-token.md)
 
 ---
 
-## Staking Rewards — 25%
+## Points, $SMRTS and $SMRT
+
+Three different things — don't mix them up:
+
+| | What it is | Tradable |
+|---|---|:-:|
+| **Points** | Your activity score for quests and leagues. Determines your share of daily tokens | No |
+| **$SMRTS** | The beta reward token (cashback, daily claims). Loses its value at TGE | No |
+| **$SMRT** | The ecosystem token, launched at TGE | Yes, after TGE |
+
+The exact **TGE date is not announced yet**. The exact distribution rules for $SMRT (snapshot, caps, multipliers, vesting) will be published before TGE.
+
+### Rule Changes
+
+| Date | Change |
+|---|---|
+| 2026-10-27 | Sending and receiving crypto no longer earns points. Points earned earlier are kept |
+
+---
+
+## Staking Rewards — 25% (planned after TGE)
 
 2,500,000,000 SMRT allocated for staking rewards:
 
@@ -172,17 +191,17 @@ More: [Points System](../premium-and-rewards/points-system.md) · [$SMRT Token](
 
 | Utility | Description |
 |---------|-------------|
-| **Smart Pay** | Pay transaction gas fees with $SMRT on any EVM network |
-| **Staking** | Lock $SMRT for additional staking rewards |
+| **Smart Pay** | Pay transaction gas fees with $SMRT on supported networks (see [Gas & Fees](gas-and-fees.md)) |
+| **Staking** | Planned: lock $SMRT for additional staking rewards |
 | **Points Boost** | Stake $500+ → +500 daily points → earn more $SMRT |
 | **Airdrops** | 5% of supply for retrodrops to active community members |
 | **Governance** | Future — community voting on ecosystem decisions |
 
 ---
 
-## Smart Contract
+## Smart Contract (after TGE)
 
-Distribution is handled by an audited Solidity contract:
+After TGE, distribution will be handled by an audited Solidity contract:
 
 - **Standard:** OpenZeppelin (AccessControl, ReentrancyGuard, Pausable)
 - **Claim method:** Merkle tree proofs — gas-efficient, verifiable

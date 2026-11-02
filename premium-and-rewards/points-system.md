@@ -67,18 +67,18 @@ Log in every day in a row — get increased rewards for consecutive days.
 
 As you accumulate points, you advance through **8 leagues**:
 
-| League | Points | Bonus |
-|--------|:------:|:-----:|
-| Bronze | 0 – 4,999 | — |
-| Silver | 5,000 – 24,999 | +2% |
-| Gold | 25,000 – 99,999 | +4% |
-| Platinum | 100,000 – 499,999 | +6% |
-| Diamond | 500,000 – 1,999,999 | +8% |
-| Master | 2,000,000 – 9,999,999 | +10% |
-| Grandmaster | 10,000,000 – 49,999,999 | +12% |
-| Legend | 50,000,000+ | +14% |
+| League | Points |
+|--------|:------:|
+| Bronze | 0 – 4,999 |
+| Silver | 5,000 – 24,999 |
+| Gold | 25,000 – 99,999 |
+| Platinum | 100,000 – 499,999 |
+| Diamond | 500,000 – 1,999,999 |
+| Master | 2,000,000 – 9,999,999 |
+| Grandmaster | 10,000,000 – 49,999,999 |
+| Legend | 50,000,000+ |
 
-League bonus is an additional % on every point earning.
+
 
 ---
 
@@ -94,4 +94,4 @@ Global user ranking by total points. Compete with others and climb the ranks!
 - Daily limit resets at **00:00 UTC**
 - Unused daily limit **does not carry over** to the next day
 
-> At official $SMRT TGE (estimated **Q4 2026**), the points system is reset and distribution starts from scratch. See [$SMRT Token](../core-concepts/smrt-token.md).
+> At official $SMRT TGE (the exact date is not announced yet), the points system is reset and distribution starts from scratch. See [$SMRT Token](../core-concepts/smrt-token.md).

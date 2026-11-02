@@ -38,7 +38,7 @@ In Discovery → **Partner Request** — built-in application form.
 
 1. **Review** — we'll review your application (1–3 business days)
 2. **Discussion** — we'll reach out to discuss details
-3. **Integration** — API keys and documentation provided
+3. **Integration** — integration details agreed with our team
 4. **Testing** — joint testing
 5. **Launch** — integration goes live
 

@@ -44,7 +44,9 @@ The **Discovery** section contains a catalog of popular DApps by category:
 - **Favorites** — save your favorite DApps
 - **Recent** — history of visited DApps
 - **Navigation** — back, forward, refresh, home
-- **Gas modes** — sponsored, gasless, or self-pay when the dApp requests a transaction
+- **Gas modes** — sponsored (Premium) or self-pay when the dApp requests a transaction
+- **EVM networks only** — Solana and Tron DApps are not supported
+- **Catalog** — categories and featured DApps are shown on Android; on iOS you open DApps from the pinned list and recent history
 
 ---
 

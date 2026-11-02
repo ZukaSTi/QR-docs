@@ -22,30 +22,29 @@ The app automatically finds the best route through multiple DEX aggregators.
 
 | Provider | Networks |
 |----------|---------|
-| **Uniswap V3** | Base, Ethereum, Arbitrum, Polygon, Optimism, World Chain |
-| **PancakeSwap V3** | BNB Chain |
+| **Uniswap V3** | Base, Ethereum, Arbitrum, Polygon, Optimism, World Chain, Monad, BNB Chain |
 | **Jupiter** | Solana |
-| **SunSwap** | Tron |
-| **LI.FI** | Cross-chain (EVM) |
-| **Rango** | Cross-chain (EVM + Solana + Tron) |
+| **PancakeSwap V3** | BNB Chain (Android) |
+| **LI.FI** | Cross-chain, EVM (Android) |
+| **Rango** | Cross-chain, EVM + Solana + Avalanche (Android) |
 
 ### Supported Swap Networks
 
-Base, Ethereum, Arbitrum, Polygon, Optimism, BNB Chain, World Chain, Avalanche, Taiko, ApeChain, Solana, Tron
+Base, Ethereum, Arbitrum, Polygon, Optimism, BNB Chain, World Chain, Monad, Solana. Avalanche — on Android.
 
-**Not available for swap:** Bitcoin, Dash.
+**Not available for swap:** HyperEVM, Plasma, Stable, ApeChain, Taiko, Bitcoin, Dash, Tron.
 
-### Isolated Networks
-
-Same-chain swaps work; **cross-chain** routes are limited or unavailable:
-
-Tron, Monad, Plasma, ApeChain
+Full list by network: [Network Feature Matrix](../supported-networks/feature-matrix.md).
 
 ---
 
 ## Bridge
 
 Transfer tokens **between networks** — e.g., USDC from Ethereum to Base.
+
+{% hint style="info" %}
+Cross-chain swaps and bridges are available in the **Android** app.
+{% endhint %}
 
 ### How It Works
 
@@ -59,7 +58,7 @@ Bridge is integrated directly into the Swap interface:
 
 ### Cross-Chain Aggregators
 
-- **Rango** — aggregates 70+ bridges and DEXes, supports EVM + Solana + Tron
+- **Rango** — aggregates bridges and DEXes across EVM networks, Solana and Avalanche
 - **LI.FI** — bridge and DEX aggregator for EVM networks
 
 ### Minimum Amount
@@ -74,9 +73,31 @@ For cross-chain swaps, amounts below **$1** may be inefficient — bridge fees c
 |------|-----|
 | **Swap (same-chain)** | DEX liquidity fee (varies by pool, often ~0.3%) |
 | **Bridge (cross-chain)** | DEX/bridge fee + provider fee |
-| **Gas** | Sponsored / Smart Pay / Gasless / Self-pay |
+| **Gas** | Sponsored / Smart Pay (Premium) / Gasless / Self-pay |
 
 > Gas is a separate network fee that can be covered by sponsored TX or Smart Pay.
+
+---
+
+## If a Swap or Bridge Is Stuck
+
+A cross-chain swap has up to four steps. The transaction details show each step and its hash:
+
+1. **Quote** — price and route. Nothing is sent yet.
+2. **Source transaction** — your tokens leave the source network.
+3. **Bridge** — the route provider moves the value between networks.
+4. **Destination transaction** — the tokens arrive on the destination network.
+
+**What to check:**
+
+- Open the source transaction in the explorer. If it **failed**, nothing left your wallet except possibly gas.
+- If it **succeeded**, the route is in progress. Bridges usually take a few minutes, sometimes longer.
+- If the route can't complete, funds are returned on the **source** network — sometimes as an intermediate token (for example USDC instead of the token you started with). Check your balance on the source network before contacting support.
+- Still nothing after an hour? Create a [support ticket](../welcome/support.md) with the source transaction hash.
+
+**"Route unavailable"** — no provider can execute this pair or amount right now. Try a different amount, a different token, or a two-step route through USDC.
+
+Routes are executed by the aggregators listed above. [QR] wallet does not hold your tokens during a route.
 
 ---
 

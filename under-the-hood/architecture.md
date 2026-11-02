@@ -137,8 +137,8 @@ This eliminates duplication — token data is described **once** and used everyw
 
 ---
 
-## 18 Languages
+## 19 Languages
 
-The app is localized in 18 languages:
+The app is localized in 19 languages:
 
-EN, RU, ES, FR, HI, ID, JA, KO, MS, PT, TH, TL, TR, UR, VI, ZH, AR, BN
+EN, RU, ES, FR, HI, ID, JA, KO, MS, PT, TH, TL, TR, UR, VI, ZH, AR, BN, PCM (Nigerian Pidgin)

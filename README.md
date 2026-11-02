@@ -12,7 +12,7 @@
 [QR] wallet is a mobile crypto wallet that makes blockchain **as simple as a regular banking app**. No need to understand gas, seeds, or nodes — everything works out of the box.
 
 **Free Transactions**
-Send crypto without paying gas. [QR] wallet covers network fees for you through our sponsored transaction system.
+Send crypto without paying gas. [QR] wallet covers network fees for you through our sponsored transaction system — with a daily quota that grows with Premium.
 
 **Many Blockchains — One Wallet**
 EVM networks, Solana, Tron, Bitcoin, Dash, and more — all in one place with a unified balance. New networks are added over time.
@@ -21,7 +21,13 @@ EVM networks, Solana, Tron, Bitcoin, Dash, and more — all in one place with a 
 Your keys are stored only on your device. Biometric protection. No one, including us, has access to your funds.
 
 **DeFi in One Tap**
-Swap, staking, borrowing, perpetual trading — all available right from the wallet without external sites.
+Swap, staking and borrowing — available right from the wallet without external sites.
+
+**Virtual Cards**
+Spend your crypto online with a virtual Visa card. See [Virtual Cards](features/cards.md).
+
+**Lite and Pro**
+New users start in **Lite** — one Smart Account address and only the essentials: top up, send, pay, cards and rewards. Switch to **Pro** in Profile for multiple wallets, both address types, staking, borrowing (Android) and the DApp browser.
 
 **Pay in the Real World**
 Scan a local payment QR and settle with crypto. Merchants receive local currency.
@@ -50,7 +56,7 @@ Points system, quests, leagues, referral program, and cashback — turning routi
 
 **Want to understand the basics?**
 
-Start with [Core Concepts](core-concepts/smart-accounts.md) — how Smart Accounts work and why they matter.
+Start with the [Quickstart](welcome/quickstart.md), then [Core Concepts](core-concepts/smart-accounts.md) — how Smart Accounts work and why they matter.
 
 </td>
 <td>
@@ -86,7 +92,7 @@ Check [For Partners](for-partners/integration-overview.md) — integration optio
 ```
 Mobile App     React Native + Expo
 Blockchain     ERC-4337 Account Abstraction (EVM)
-Networks       EVM + Solana + Tron + Bitcoin + Dash
+Networks       EVM + Solana + Bitcoin + Dash + Tron
 Infrastructure Bundler, Paymaster, multi-chain RPC
 Security       Biometric + Secure Enclave
 ```

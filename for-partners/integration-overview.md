@@ -10,11 +10,11 @@
 
 Accept crypto payments via QR codes:
 
-- Integration in minutes via API
 - Stablecoin support (USDC, USDT)
 - Multiple blockchains — buyer pays on a supported network
 - Instant confirmation on L2 networks
-- Webhooks for automated processing
+
+A public self-service API is not available yet. Payment integrations are set up on request — send a [partnership request](partnership-request.md) with your use case.
 
 **For:** E-commerce, POS terminals, marketplaces, services.
 
@@ -60,7 +60,7 @@ Add your token to [QR] wallet's Token Registry:
 | **Multi-chain** | EVM, Solana, Tron, Bitcoin, Dash, and growing |
 | **Mobile focus** | Optimized for mobile UX |
 | **Gamification** | Motivation for active usage |
-| **18 languages** | Global audience |
+| **19 languages** | Global audience |
 | **Ambassadors** | Invite-only partner tiers — [details](ambassador-program.md) |
 
 ---
@@ -68,6 +68,6 @@ Add your token to [QR] wallet's Token Registry:
 ## Get Started
 
 1. Submit a [partnership request](partnership-request.md)
-2. Receive API key and documentation
+2. Agree on the integration scope with our team
 3. Integrate and test
 4. Launch

@@ -34,6 +34,7 @@ One family, one address format (`0x…`). On most EVM chains your **Smart Accoun
 | **Monad** | MON | 143 | ✅ |
 | **Avalanche** | AVAX | 43114 | ❌ (EOA) |
 | **ApeChain** | APE | 33139 | ✅ |
+| **Stable** | USDT0 | 988 | ✅ |
 | **Taiko** | ETH | 167000 | ❌ (EOA) |
 
 Details: [EVM Chains](../supported-networks/evm-chains.md)
@@ -43,9 +44,9 @@ Details: [EVM Chains](../supported-networks/evm-chains.md)
 | Network | Native Token | Highlights |
 |---------|:------------:|-----------|
 | **Solana** | SOL | High speed, low fees, SPL tokens |
-| **Tron** | TRX | Popular for USDT transfers, energy model instead of gas |
+| **Tron** | TRX | Popular for USDT transfers, energy model instead of gas. Deposits temporarily unavailable |
 | **Bitcoin** | BTC | Balance, receive, and send. No swap |
-| **Dash** | DASH | Instant-friendly UTXO network. Balance, receive, and send. Smart Pay supported |
+| **Dash** | DASH | Instant-friendly UTXO network. Balance, receive, send, and QR payments |
 
 ---
 
@@ -78,7 +79,7 @@ The app automatically:
 Choose a token → choose a network → enter address → send. The app determines which network the token is on. Bitcoin and Dash use their own address formats.
 
 ### Bridge
-Need to move tokens between EVM / Solana / Tron? The built-in bridge lives in the swap interface. Bitcoin and Dash are **not** available for swap/bridge.
+Need to move tokens between EVM networks and Solana? The built-in bridge lives in the swap interface (Android). Bitcoin, Dash and Tron are **not** available for swap/bridge.
 
 ### Swap
 Token exchange works both within a single network and across supported networks. More: [Swap & Bridge](../features/swap-and-bridge.md)

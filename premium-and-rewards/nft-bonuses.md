@@ -17,6 +17,8 @@
 | **Daily limit** | +500/day |
 | **Auto-points** | +500/day while equipped |
 | **TX bonus** | +1 sponsored TX/day |
+| **Price** | $50 |
+| **Supply** | Unlimited |
 | **Requirement** | None — available to all |
 
 Hunter NFT is the base collection for active [QR] wallet users.
@@ -30,6 +32,8 @@ Hunter NFT is the base collection for active [QR] wallet users.
 | **Daily limit** | +500/day |
 | **Auto-points** | +500/day while equipped |
 | **TX bonus** | +2 sponsored TX/day |
+| **Price** | $250 |
+| **Supply** | 1,000 |
 | **Purchase** | **Premium Black Year** or **Premium Ultra** |
 
 OG NFT can be **bought** only with Black Year or Ultra. Auto-points, daily-limit, and TX bonuses keep working after Premium expires, as long as the NFT stays equipped.
@@ -50,7 +54,11 @@ OG NFT can be **bought** only with Black Year or Ultra. Auto-points, daily-limit
 
 ## How to Get NFTs
 
-NFTs are available in the app's Premium section. Ownership is verified on-chain — the NFT lives on your wallet.
+NFTs are available in the app's Premium section on Android. On iOS, NFTs can't be bought in the app — NFTs you already own work on iOS as usual. Ownership is verified on-chain on Base — the NFT lives on your wallet.
+
+- **Owning vs equipped** — bonuses work only for an **equipped** NFT. A purchased NFT is equipped automatically.
+- **Hunter + OG** — both bonuses add up when both are equipped (see the examples above).
+- **Moved the NFT to another wallet?** Equip it there to get the bonuses.
 
 ---
 

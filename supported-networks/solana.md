@@ -36,10 +36,10 @@ SOL staking via **Marinade Finance**:
 - Use mSOL in DeFi
 
 ### Cross-Chain
-Transfer tokens between Solana and EVM networks via Rango — bridge aggregator.
+Transfer tokens between Solana and EVM networks via Rango — bridge aggregator. Available on Android.
 
 ### Gas Sponsorship
-Solana uses a separate sponsorship mechanism — via fee payer. [QR] wallet can sponsor fees on Solana, similar to EVM networks.
+Solana uses a separate sponsorship mechanism — via fee payer. [QR] wallet can sponsor fees on Solana, similar to EVM networks. Free users need a deposit of $5 or more on Solana first. With Premium, you can also pay fees with Smart Pay.
 
 ---
 
@@ -49,7 +49,7 @@ Solana uses a separate sponsorship mechanism — via fee payer. [QR] wallet can 
 |-----------|:-------:|
 | Send / Receive | ✅ |
 | Swap (Jupiter) | ✅ |
-| Cross-chain swap | ✅ |
+| Cross-chain swap | ✅ (Android) |
 | Staking (Marinade) | ✅ |
-| DApp browser | ✅ |
+| DApp browser | ❌ |
 | QR payments | ✅ |

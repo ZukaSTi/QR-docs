@@ -33,7 +33,7 @@ Bitcoin is a UTXO network. It does **not** use ERC-4337 Smart Accounts. Fees are
 - **Bridge** — no in-app BTC ↔ EVM bridge
 - **QR fiat payments** from the Bitcoin balance (use supported QR Pay networks instead)
 
-To get BTC into other chains, send BTC out to an exchange or a dedicated bridge, then back to [QR] wallet on an EVM/Solana/Tron address.
+To get BTC into other chains, send BTC out to an exchange or a dedicated bridge, then back to [QR] wallet on an EVM or Solana address.
 
 ---
 

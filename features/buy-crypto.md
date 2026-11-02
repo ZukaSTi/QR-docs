@@ -1,39 +1,39 @@
-# Buy & Sell Crypto
+# Buy Crypto
 
-> Buy and sell crypto with fiat — coming soon.
-
----
-
-## Status
-
-The **Buy / Sell crypto** section is **being connected**. It is not fully live for all users yet.
-
-When it opens, you will be able to:
-
-- **Buy** crypto with a bank card, Apple Pay, or Google Pay
-- **Sell** crypto back to fiat
-- Receive funds directly to your wallet address on the selected network
-
-Identity verification (KYC) will be part of the purchase flow — this is required by on-ramp partners, not by [QR] wallet itself.
+> Buy crypto with a bank card or Google Pay.
 
 ---
 
-## What to Use Today
+## Availability
 
-Until Buy / Sell is live:
+**Buy** is available in the [QR] wallet app on **Android**. iOS — coming soon. Crypto arrives directly at your wallet address on the selected network.
 
-- Ask someone to [send](send-and-receive.md) crypto to your receive address or QR
-- Use [Swap](swap-and-bridge.md) to exchange tokens you already hold
-- Use [QR Payments](qr-payments.md) to spend crypto in supported countries
+**Sell** (crypto to fiat) is coming soon.
+
+---
+
+## How to Buy
+
+1. Open **Buy**
+2. Choose the token, network and amount
+3. Pay with a bank card or Google Pay
+
+Fees, limits and the exchange rate are shown before you pay. The purchase partner may ask for identity verification, depending on the amount and your country.
+
+---
+
+## Buy Button Is Unavailable?
+
+Buying may not be offered in your country or on your device. You can always top up your wallet by receiving crypto from an exchange or another wallet — see [Send & Receive](send-and-receive.md).
 
 ---
 
 ## FAQ
 
-**When will it launch?**
+**Where will my crypto arrive?**
 
-We are connecting the rails now. The section will appear in the app when it is ready — no extra download required for OTA-enabled builds.
+At your wallet address on the network you chose. Check it in History or in the network explorer.
 
-**Which currencies and networks?**
+**The payment went through but the crypto hasn't arrived.**
 
-The live list will be shown in the app. We will not lock a provider name here — routing can change as we add partners.
+Card payments usually arrive within minutes. If it takes longer, create a [support ticket](../welcome/support.md) with the purchase details.

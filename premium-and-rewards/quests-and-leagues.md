@@ -8,38 +8,53 @@
 
 ### 1. Daily
 
-Reset every day. Simple actions for regular point earning:
+Daily quests reset every day at **00:00 UTC**. Collect your points the same day — uncollected daily rewards expire at the reset.
 
-| Quest | Description | Points |
+| Quest | When it counts | Points |
 |-------|------------|:------:|
-| Daily Check-in | Open the app | 50 |
-| Make a Swap | Complete any swap | 100 |
-| Send Crypto | Send tokens to someone | 100 |
-| Scan QR | Scan a payment QR | 75 |
-| Visit DApp | Open any DApp in browser | 50 |
+| Daily Check-in | Open the app and check in | 50 (+ streak bonus) |
+| Pay via QR | A **completed** fiat QR payment. Scanning a code or a crypto-to-crypto QR transfer doesn't count | 50 |
+| Pay by Card | A completed purchase with your [virtual card](../features/cards.md) | 50 |
+| Swap $5+ | A swap worth $5 or more | 50 |
+| Visit Website | Open the [QR] website from the quest | 25 |
+| Visit X | Open our X page from the quest | 25 |
+| Invite a Friend | A friend you invited deposits $5+ today | 500 |
+| Complete 5 Tasks | Complete 5 daily tasks, including at least one QR or card payment | 250 |
+
+Sending and receiving crypto doesn't earn points by itself. Deposits still count toward the **Top-up $1000+** achievement.
 
 ### 2. Social
 
-One-time quests for social activity:
+One-time quests (except Invite Friend, which repeats for every friend):
 
-| Quest | Description | Points |
-|-------|------------|:------:|
-| Follow on X | Follow @QRwallet_X on X | 200 |
-| Join Telegram | Join the Telegram community | 200 |
-| Share on Social | Share your referral link | 150 |
-| Invite Friend | Get a friend to sign up | 500 |
+| Quest | Points |
+|-------|:------:|
+| Follow on X | 25 |
+| Join Telegram (Telegram account must be linked) | 25 |
+| Join Beta Group | 25 |
+| Share on Social | 50 |
+| Connect Email | 50 |
+| Share in Telegram | 100 |
+| Invite Friend — for every friend who deposits $5+ (limit depends on your tier) | 500 |
+| Follow on Threads / Instagram / TikTok / Facebook, Subscribe on YouTube, Join WhatsApp / Discord | 25 each |
 
 ### 3. Advanced
 
-Long-term achievements with high rewards:
+Long-term achievements:
 
-| Quest | Description | Points |
-|-------|------------|:------:|
-| First Swap | Complete your first swap | 250 |
-| Cross-chain Explorer | Bridge to 3 different chains | 500 |
-| Volume Milestone | Trade $1,000 total volume | 1,000 |
-| Holder | Hold $100+ for 7 days | 300 |
-| Multi-network User | Use 5 different networks | 400 |
+| Quest | Points |
+|-------|:------:|
+| Smart Account Master — activate all sponsored Smart Accounts | 250 |
+| Swap $100+ in total | 250 |
+| Hodler | 250 |
+| Whale | 500 |
+| Top-up $1000+ | 500 |
+| Buy any Premium | 250 |
+| Buy NFT | 250 |
+| Invite 10 Friends | 2,500 |
+| Weekly Streak Master | 250 |
+
+The quest card in the app shows the exact condition and your progress.
 
 ### 4. Partnership
 
@@ -50,14 +65,21 @@ Special quests from [QR] wallet partners — appear periodically with unique rew
 ## Quest Statuses
 
 ```
-Locked → Available → In Progress → Completed → Collected
+Available → In Progress → Completed → Collected
 ```
 
-- **Locked** — quest unavailable (prerequisites not met)
 - **Available** — can start
 - **In Progress** — underway (for progress-based quests)
 - **Completed** — done, points ready to collect
 - **Collected** — points received
+- **Expired** — a daily reward that wasn't collected before the 00:00 UTC reset
+
+### Why Didn't My Action Count?
+
+- The QR payment wasn't **completed** (check its status in History)
+- The swap was under $5
+- You collected the reward after the daily reset
+- Activity is processed with a short delay — check again in a few minutes
 
 ---
 
@@ -65,20 +87,16 @@ Locked → Available → In Progress → Completed → Collected
 
 Leagues are your rank in the [QR] wallet ecosystem. More points = higher league:
 
-| # | League | Points Required | Points Bonus |
-|---|--------|:---------------:|:------------:|
-| 1 | **Bronze** | 0 | — |
-| 2 | **Silver** | 5,000 | +2% |
-| 3 | **Gold** | 25,000 | +4% |
-| 4 | **Platinum** | 100,000 | +6% |
-| 5 | **Diamond** | 500,000 | +8% |
-| 6 | **Master** | 2,000,000 | +10% |
-| 7 | **Grandmaster** | 10,000,000 | +12% |
-| 8 | **Legend** | 50,000,000 | +14% |
-
-### What Does the League Bonus Do?
-
-Every point earning is increased by your league percentage. For example, in Diamond (+8%): a 100-point quest yields 108 points.
+| # | League | Points Required |
+|---|--------|:---------------:|
+| 1 | **Bronze** | 0 |
+| 2 | **Silver** | 5,000 |
+| 3 | **Gold** | 25,000 |
+| 4 | **Platinum** | 100,000 |
+| 5 | **Diamond** | 500,000 |
+| 6 | **Master** | 2,000,000 |
+| 7 | **Grandmaster** | 10,000,000 |
+| 8 | **Legend** | 50,000,000 |
 
 ---
 

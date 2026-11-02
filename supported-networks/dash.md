@@ -14,7 +14,7 @@
 | **Smart Account** | ❌ |
 | **Sponsored TX** | ❌ |
 | **Swap / Bridge** | ❌ |
-| **Smart Pay** | ✅ |
+| **QR payments** | ✅ |
 
 Dash is a UTXO network with InstantSend-style confirmations. It does **not** use EVM Smart Accounts.
 
@@ -25,7 +25,7 @@ Dash is a UTXO network with InstantSend-style confirmations. It does **not** use
 - **Balance** — in the unified portfolio
 - **Receive** — Dash address / QR
 - **Send** — to another Dash address
-- **Smart Pay** — cover network fees without holding extra DASH for gas (see [Gas & Fees](../core-concepts/gas-and-fees.md))
+- **QR payments** — pay merchant QR codes with DASH, up to $200 per payment (see [QR Payments](../features/qr-payments.md))
 
 ---
 

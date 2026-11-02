@@ -12,7 +12,7 @@ Every blockchain transaction requires "gas" — a network fee. In most wallets, 
 
 1. The app checks: do you have remaining sponsored TX?
 2. If **yes** → [QR] wallet pays the gas via **Paymaster**
-3. If **no** → you're offered Smart Pay, stablecoin (gasless), or native token payment
+3. If **no** → you're offered Smart Pay (Premium), gasless (supported token), or native token payment
 
 > **Paymaster** is a smart contract that signs permission to pay gas on behalf of the user. The blockchain charges the Paymaster, not your wallet.
 
@@ -33,7 +33,7 @@ Step 3   Build UserOperation
 Step 4   Request Paymaster
           Sponsored → Paymaster signs that it will pay
           Smart Pay → fee paid in $SMRT (or supported tokens)
-          Gasless   → fee calculated in USDC/USDT
+          Gasless   → fee calculated in a supported token
           Self-pay  → gas calculated in native token
           ↓
 Step 5   Sign UserOperation with your key
@@ -72,7 +72,10 @@ Bitcoin and Dash confirm on their own networks (typically minutes, depending on 
 | Bridge (cross-chain) | ✅ |
 | Staking | ✅ |
 | Borrow | ✅ |
-| Buy Premium (crypto) | ✅ |
+| DApp transactions (Premium only) | ✅ |
+| QR payments | ❌ |
+| Card payments and top-ups | ❌ |
+| Buy Premium (crypto) | ❌ |
 | Receive tokens | ❌ |
 | SA Activation | ❌ (separate limit) |
 | Smart Pay | ❌ (separate quota) |
@@ -104,6 +107,8 @@ Free users also receive **1 welcome static TX** (does not reset daily).
 | Hunter NFT | +1 |
 | OG NFT | +2 |
 
+NFT bonuses apply only while the NFT is **equipped**.
+
 **Example:** Black Year + Hunter NFT + OG NFT = 5 + 1 + 2 = **8 TX/day**
 
 ---
@@ -120,7 +125,7 @@ In addition to daily limits, you may have **static sponsored TX** — they **don
 
 Sponsored transactions work on Smart Account networks (most EVM L2s, plus Ethereum and Solana via a separate fee sponsorship path).
 
-They are **not** used on Bitcoin, Dash, Avalanche, or Taiko — those networks use native fees (or Smart Pay where available).
+They are **not** used on Bitcoin, Dash, Avalanche, Taiko or Tron — those networks use native fees.
 
 | Network | Sponsored TX |
 |---------|:-----------:|
@@ -134,8 +139,9 @@ They are **not** used on Bitcoin, Dash, Avalanche, or Taiko — those networks u
 | Monad | ✅ |
 | Plasma | ✅ |
 | ApeChain | ✅ |
+| Stable | ✅ |
 | Ethereum | ✅ |
-| Solana | ✅ (separate mechanism) |
+| Solana | ✅ (separate mechanism; Free users need a $5+ deposit first) |
 | Avalanche | ❌ (EOA / native fees) |
 | Taiko | ❌ (EOA / native fees) |
 | Bitcoin | ❌ |
@@ -148,8 +154,8 @@ They are **not** used on Bitcoin, Dash, Avalanche, or Taiko — those networks u
 
 You're **not locked out**. Options:
 
-1. **Smart Pay** — pay the fee in $SMRT (BNB Chain, Avalanche, Dash — more networks over time)
-2. **Gasless** — pay gas in USDC/USDT (stablecoins)
+1. **Smart Pay** — with Premium, pay the fee in $SMRTS, AVAX or APE (see [Gas & Fees](gas-and-fees.md))
+2. **Gasless** — pay gas in a supported token such as USDC or USDT
 3. **Self-pay** — pay gas in native token (ETH, POL, BNB, AVAX, DASH, BTC, …)
 4. **Wait** — daily limit resets at 00:00 UTC
 

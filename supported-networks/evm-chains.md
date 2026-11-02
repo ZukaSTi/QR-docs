@@ -10,7 +10,7 @@
 
 On **most** of these networks your **Smart Account address is the same**. Avalanche and Taiko currently use a classic EOA (no Smart Account / sponsored TX).
 
-Non-EVM networks: [Solana](solana.md), [Tron](tron.md), [Bitcoin](bitcoin.md), [Dash](dash.md).
+Non-EVM networks: [Solana](solana.md), [Tron](tron.md), [Bitcoin](bitcoin.md), [Dash](dash.md). What works on each network: [Network Feature Matrix](feature-matrix.md).
 
 ---
 
@@ -110,7 +110,7 @@ Network by Worldcoin/World ID. Focus on identity and proof-of-personhood.
 | **Explorer** | [hyperliquid.cloud.blockscout.com](https://hyperliquid.cloud.blockscout.com) |
 | **Sponsored TX** | ✅ |
 
-EVM network by Hyperliquid — used for perpetual trading and DeFi on the Hyperliquid platform.
+EVM network by Hyperliquid. Send and receive with sponsored transactions.
 
 ### Plasma
 | | |
@@ -146,10 +146,9 @@ Next-gen high-performance EVM blockchain with parallel transaction execution.
 | **Explorer** | [snowtrace.io](https://snowtrace.io) |
 | **Sponsored TX** | ❌ |
 | **Smart Account** | ❌ (EOA) |
-| **Smart Pay** | ✅ |
-| **Swap** | ✅ |
+| **Swap** | ✅ (Android) |
 
-Avalanche C-Chain. Send, receive, and swap. No Smart Account — you pay native AVAX or use Smart Pay.
+Avalanche C-Chain. Send and receive; swap on Android. No Smart Account — you pay gas in native AVAX.
 
 ### ApeChain
 | | |
@@ -160,7 +159,19 @@ Avalanche C-Chain. Send, receive, and swap. No Smart Account — you pay native 
 | **Gas** | ~$0.01 |
 | **Explorer** | [apescan.io](https://apescan.io) |
 | **Sponsored TX** | ✅ |
-| **Swap** | same-chain only (isolated) |
+| **Swap** | ❌ |
+
+### Stable
+| | |
+|---|---|
+| **Native Token** | USDT0 |
+| **Chain ID** | 988 |
+| **Type** | L1 |
+| **Explorer** | [stablescan.xyz](https://stablescan.xyz) |
+| **Sponsored TX** | ✅ |
+| **Swap** | ❌ |
+
+A network where gas is paid in USDT0. Send, receive, and pay merchant QR codes with USDT or USDC.
 
 ### Taiko
 | | |
@@ -172,7 +183,7 @@ Avalanche C-Chain. Send, receive, and swap. No Smart Account — you pay native 
 | **Explorer** | [taikoscan.io](https://taikoscan.io) |
 | **Sponsored TX** | ❌ |
 | **Smart Account** | ❌ (EOA) |
-| **Swap** | ✅ |
+| **Swap** | ❌ |
 
 ---
 
@@ -192,4 +203,5 @@ Avalanche C-Chain. Send, receive, and swap. No Smart Account — you pay native 
 | Monad | ~$0.01 | ✅ | ✅ | 1s |
 | Avalanche | ~$0.02 | ❌ | ❌ | 2s |
 | ApeChain | ~$0.01 | ✅ | ✅ | 2s |
+| Stable | low | ✅ | ✅ | — |
 | Taiko | ~$0.01 | ❌ | ❌ | 2s |
